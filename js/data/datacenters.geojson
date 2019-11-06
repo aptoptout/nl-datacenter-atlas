@@ -2,7 +2,21 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.309485, 4.935572]
+    "coordinates" : [4.935572, 52.309485]
+  },
+  "properties" : {
+    "name" : "Datacenter.com AMS1",
+    "address" : "Keienbergweg 22 1011GB Amsterdam",
+    "owner" : "Datacenter",
+    "emission" : "",
+    "energylabel" : "Niet opgenomen",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [4.93948, 52.303912]
   },
   "properties" : {
     "name" : "Cateringweg 5",
@@ -16,21 +30,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.303912, 4.93948]
-  },
-  "properties" : {
-    "name" : "Cateringweg 5",
-    "address" : "Cateringweg 5 1118AM Schiphol",
-    "owner" : "Digital Realty (managed by Terremark)",
-    "emission" : "",
-    "energylabel" : "",
-    "electricity" : ""
-  }
-},{
-  "type" : "Feature",
-  "geometry" : {
-    "type" : "Point",
-    "coordinates" : [52.303912, 4.93948]
+    "coordinates" : [4.93948, 52.303912]
   },
   "properties" : {
     "name" : "Switch Datacenters Amsterdam",
@@ -44,7 +44,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.399869, 4.842347]
+    "coordinates" : [4.842347, 52.399869]
   },
   "properties" : {
     "name" : "Switch Datacenters Amsterdam 3",
@@ -58,7 +58,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.399474, 4.843834]
+    "coordinates" : [4.843834, 52.399474]
   },
   "properties" : {
     "name" : "Interxion AMS1",
@@ -72,7 +72,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.399861, 4.842597]
+    "coordinates" : [4.842597, 52.399861]
   },
   "properties" : {
     "name" : "Interxion AMS2",
@@ -86,7 +86,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.299929, 4.943121]
+    "coordinates" : [4.943121, 52.299929]
   },
   "properties" : {
     "name" : "Interxion AMS4",
@@ -100,7 +100,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.299929, 4.943121]
+    "coordinates" : [4.943121, 52.299929]
   },
   "properties" : {
     "name" : "Paul Van Vlissingenstraat 16",
@@ -114,7 +114,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.293351, 4.945054]
+    "coordinates" : [4.945054, 52.293351]
   },
   "properties" : {
     "name" : "Matrix 4",
@@ -128,7 +128,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.39676, 4.838742]
+    "coordinates" : [4.838742, 52.39676]
   },
   "properties" : {
     "name" : "AM1 Amsterdam IBX® Data Center",
@@ -142,7 +142,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.300183, 4.955048]
+    "coordinates" : [4.955048, 52.300183]
   },
   "properties" : {
     "name" : "AM2 Amsterdam IBX® Data Center",
@@ -156,7 +156,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.336277, 4.886678]
+    "coordinates" : [4.886678, 52.336277]
   },
   "properties" : {
     "name" : "AM3 Amsterdam IBX® Data Center",
@@ -170,7 +170,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.34339, 4.844303]
+    "coordinates" : [4.844303, 52.34339]
   },
   "properties" : {
     "name" : "AM4 Amsterdam IBX® Data Center",
@@ -184,7 +184,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.33476, 4.93186]
+    "coordinates" : [4.93186, 52.33476]
   },
   "properties" : {
     "name" : "AM5 Amsterdam IBX® Data Center",
@@ -198,7 +198,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.396443, 4.851132]
+    "coordinates" : [4.851132, 52.396443]
   },
   "properties" : {
     "name" : "AM6 Amsterdam IBX® Data Center",
@@ -212,7 +212,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.385756, 4.832253]
+    "coordinates" : [4.832253, 52.385756]
   },
   "properties" : {
     "name" : "AM7 Amsterdam IBX® Data Center",
@@ -226,7 +226,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.395902, 4.870918]
+    "coordinates" : [4.870918, 52.395902]
   },
   "properties" : {
     "name" : "AM8 Amsterdam IBX® Data Center",
@@ -240,7 +240,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.395778, 4.849488]
+    "coordinates" : [4.849488, 52.395778]
   },
   "properties" : {
     "name" : "The Datacenter Group",
@@ -254,7 +254,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.35396, 4.951214]
+    "coordinates" : [4.951214, 52.35396]
   },
   "properties" : {
     "name" : "Vancis B.V.",
@@ -268,7 +268,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.35396, 4.951214]
+    "coordinates" : [4.951214, 52.35396]
   },
   "properties" : {
     "name" : "KPN Datacenter Amsterdam",
@@ -282,7 +282,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.207393, 6.878966]
+    "coordinates" : [6.878966, 52.207393]
   },
   "properties" : {
     "name" : "Alticom Datacenter Amsterdam",
@@ -296,7 +296,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.35396, 4.951214]
+    "coordinates" : [4.951214, 52.35396]
   },
   "properties" : {
     "name" : "Colt Amsterdam, Oud-Zuid",
@@ -310,7 +310,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.322569, 4.802151]
+    "coordinates" : [4.802151, 52.322569]
   },
   "properties" : {
     "name" : "Level 3 Amsterdam",
@@ -324,7 +324,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.333408, 4.919441]
+    "coordinates" : [4.919441, 52.333408]
   },
   "properties" : {
     "name" : "Level 3 Amsterdam",
@@ -338,7 +338,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.356626, 4.958019]
+    "coordinates" : [4.958019, 52.356626]
   },
   "properties" : {
     "name" : "TelecityGroup Amstel Business Park",
@@ -352,7 +352,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.354925, 4.96096]
+    "coordinates" : [4.96096, 52.354925]
   },
   "properties" : {
     "name" : "Amsterdam Data Tower",
@@ -366,7 +366,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.29643, 4.94859]
+    "coordinates" : [4.94859, 52.29643]
   },
   "properties" : {
     "name" : "GYRO Center Amsterdam Amsterdam",
@@ -380,7 +380,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.292431, 4.788323]
+    "coordinates" : [4.788323, 52.292431]
   },
   "properties" : {
     "name" : "Colt",
@@ -394,7 +394,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.354925, 4.96096]
+    "coordinates" : [4.96096, 52.354925]
   },
   "properties" : {
     "name" : "Databarn Amsterdam B.V.",
@@ -408,7 +408,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.337296, 4.93365]
+    "coordinates" : [4.93365, 52.337296]
   },
   "properties" : {
     "name" : "Global One",
@@ -422,7 +422,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.303078, 4.938009]
+    "coordinates" : [4.938009, 52.303078]
   },
   "properties" : {
     "name" : "Global Switch",
@@ -436,7 +436,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.392897, 4.849214]
+    "coordinates" : [4.849214, 52.392897]
   },
   "properties" : {
     "name" : "Eweka DC",
@@ -450,7 +450,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.356671, 4.952501]
+    "coordinates" : [4.952501, 52.356671]
   },
   "properties" : {
     "name" : "DCA",
@@ -464,7 +464,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.336524, 4.931893]
+    "coordinates" : [4.931893, 52.336524]
   },
   "properties" : {
     "name" : "IS Group",
@@ -478,7 +478,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.357161, 4.950882]
+    "coordinates" : [4.950882, 52.357161]
   },
   "properties" : {
     "name" : "Nikhef",
@@ -492,7 +492,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.328278, 4.926198]
+    "coordinates" : [4.926198, 52.328278]
   },
   "properties" : {
     "name" : "RDC Datacentrum",
@@ -506,7 +506,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.343984, 4.828712]
+    "coordinates" : [4.828712, 52.343984]
   },
   "properties" : {
     "name" : "SARA Amsterdam",
@@ -520,7 +520,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.408398, 4.828869]
+    "coordinates" : [4.828869, 52.408398]
   },
   "properties" : {
     "name" : "Vancis",
@@ -534,7 +534,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.333972, 4.885484]
+    "coordinates" : [4.885484, 52.333972]
   },
   "properties" : {
     "name" : "Verizon 1",
@@ -548,7 +548,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.356921, 4.954253]
+    "coordinates" : [4.954253, 52.356921]
   },
   "properties" : {
     "name" : "Verizon 2",
@@ -562,7 +562,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.332571, 4.913962]
+    "coordinates" : [4.913962, 52.332571]
   },
   "properties" : {
     "name" : "XS4ALL DC2",
@@ -576,7 +576,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.30491, 4.935663]
+    "coordinates" : [4.935663, 52.30491]
   },
   "properties" : {
     "name" : "TelecityGroup Amsterdam",
@@ -590,7 +590,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.35672, 4.956934]
+    "coordinates" : [4.956934, 52.35672]
   },
   "properties" : {
     "name" : "Vancis Amsterdam",
@@ -604,7 +604,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.400496, 4.842911]
+    "coordinates" : [4.842911, 52.400496]
   },
   "properties" : {
     "name" : "Interoute Amsterdam",
@@ -618,7 +618,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.27956, 4.755958]
+    "coordinates" : [4.755958, 52.27956]
   },
   "properties" : {
     "name" : "Interxion AMS3",
@@ -632,7 +632,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.786894, 6.118069]
+    "coordinates" : [6.118069, 52.786894]
   },
   "properties" : {
     "name" : "Interxion AMS5",
@@ -646,7 +646,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.28415, 4.770855]
+    "coordinates" : [4.770855, 52.28415]
   },
   "properties" : {
     "name" : "Interxion AMS6",
@@ -660,7 +660,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.280312, 4.753851]
+    "coordinates" : [4.753851, 52.280312]
   },
   "properties" : {
     "name" : "Interxion AMS7",
@@ -674,7 +674,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.280356, 4.753675]
+    "coordinates" : [4.753675, 52.280356]
   },
   "properties" : {
     "name" : "Maincubes AMS01 Schiphol",
@@ -688,7 +688,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.281252, 4.765043]
+    "coordinates" : [4.765043, 52.281252]
   },
   "properties" : {
     "name" : "atom86",
@@ -702,7 +702,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.282192, 4.772861]
+    "coordinates" : [4.772861, 52.282192]
   },
   "properties" : {
     "name" : "Cogent Datacenter Halfweg",
@@ -716,7 +716,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.274896, 4.750866]
+    "coordinates" : [4.750866, 52.274896]
   },
   "properties" : {
     "name" : "NLDC Datacenter Amsterdam 2 ",
@@ -730,7 +730,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.384505, 4.717155]
+    "coordinates" : [4.717155, 52.384505]
   },
   "properties" : {
     "name" : "Datahouse Datacenters",
@@ -744,7 +744,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.259264, 4.773709]
+    "coordinates" : [4.773709, 52.259264]
   },
   "properties" : {
     "name" : "Signet",
@@ -758,7 +758,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.625046, 4.76981]
+    "coordinates" : [4.76981, 52.625046]
   },
   "properties" : {
     "name" : "TeDoc Web Management",
@@ -772,7 +772,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.501266, 5.460506]
+    "coordinates" : [5.460506, 51.501266]
   },
   "properties" : {
     "name" : "Zeelandnet",
@@ -786,7 +786,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.876458, 5.997082]
+    "coordinates" : [5.997082, 52.876458]
   },
   "properties" : {
     "name" : "KPN Datacenter Flevoland",
@@ -800,7 +800,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.574114, 3.700106]
+    "coordinates" : [3.700106, 51.574114]
   },
   "properties" : {
     "name" : "Vancis Almere",
@@ -814,7 +814,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.364353, 5.268793]
+    "coordinates" : [5.268793, 52.364353]
   },
   "properties" : {
     "name" : "Final Frontier",
@@ -828,7 +828,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.378152, 5.229227]
+    "coordinates" : [5.229227, 52.378152]
   },
   "properties" : {
     "name" : "Mihos BV",
@@ -842,7 +842,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.38546, 5.204234]
+    "coordinates" : [5.204234, 52.38546]
   },
   "properties" : {
     "name" : "UNET Almere",
@@ -856,7 +856,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.40744, 5.321596]
+    "coordinates" : [5.321596, 52.40744]
   },
   "properties" : {
     "name" : "KPN Datacenter Apeldoorn",
@@ -870,7 +870,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.346588, 5.182618]
+    "coordinates" : [5.182618, 52.346588]
   },
   "properties" : {
     "name" : "Computel Datacenter Gelderland",
@@ -884,7 +884,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.232416, 5.976736]
+    "coordinates" : [5.976736, 52.232416]
   },
   "properties" : {
     "name" : "ITB2 Datacenter Apeldoorn",
@@ -898,7 +898,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.194743, 5.943514]
+    "coordinates" : [5.943514, 52.194743]
   },
   "properties" : {
     "name" : "Solcon, locatie Apeldoorn",
@@ -912,7 +912,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.199554, 6.026183]
+    "coordinates" : [6.026183, 52.199554]
   },
   "properties" : {
     "name" : "KPN Datacenter Eindhoven",
@@ -926,7 +926,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.24703, 6.001603]
+    "coordinates" : [6.001603, 52.24703]
   },
   "properties" : {
     "name" : "EcoRacks",
@@ -940,7 +940,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.40762, 5.45911]
+    "coordinates" : [5.45911, 51.40762]
   },
   "properties" : {
     "name" : "Interconnect - Eindhoven",
@@ -954,7 +954,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.478509, 5.440275]
+    "coordinates" : [5.440275, 51.478509]
   },
   "properties" : {
     "name" : "KPN Datacenter Haarlem",
@@ -968,7 +968,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.442134, 5.387441]
+    "coordinates" : [5.387441, 51.442134]
   },
   "properties" : {
     "name" : "Alticom Datacenter Haarlem",
@@ -982,7 +982,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.388166, 4.669602]
+    "coordinates" : [4.669602, 52.388166]
   },
   "properties" : {
     "name" : "Iron Mountain - AMS-1",
@@ -996,7 +996,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.388166, 4.669602]
+    "coordinates" : [4.669602, 52.388166]
   },
   "properties" : {
     "name" : "KPN Datacenter Oude Meer",
@@ -1010,7 +1010,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.391185, 4.665399]
+    "coordinates" : [4.665399, 52.391185]
   },
   "properties" : {
     "name" : "KPN Datacenter Rotterdam",
@@ -1024,7 +1024,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.875343, 4.449031]
+    "coordinates" : [4.449031, 51.875343]
   },
   "properties" : {
     "name" : "Alticom Datacenter Rotterdam",
@@ -1038,7 +1038,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.875343, 4.449031]
+    "coordinates" : [4.449031, 51.875343]
   },
   "properties" : {
     "name" : "SmartDC :  Dataport of Rotterdam",
@@ -1052,7 +1052,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.92324, 4.43342]
+    "coordinates" : [4.43342, 51.92324]
   },
   "properties" : {
     "name" : "Bytesnet Rotterdam",
@@ -1066,7 +1066,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.930144, 4.414046]
+    "coordinates" : [4.414046, 51.930144]
   },
   "properties" : {
     "name" : "Databarn Rivium B.V.",
@@ -1080,7 +1080,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.910353, 4.546727]
+    "coordinates" : [4.546727, 51.910353]
   },
   "properties" : {
     "name" : "Easynet DC Rotterdam",
@@ -1094,7 +1094,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.904835, 4.457454]
+    "coordinates" : [4.457454, 51.904835]
   },
   "properties" : {
     "name" : "Intermax - DC Schiecentrale",
@@ -1108,7 +1108,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.922887, 4.474568]
+    "coordinates" : [4.474568, 51.922887]
   },
   "properties" : {
     "name" : "Intermax - DC Schouwburgplein",
@@ -1122,7 +1122,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.92025, 4.474623]
+    "coordinates" : [4.474623, 51.92025]
   },
   "properties" : {
     "name" : "Verizon 3",
@@ -1136,7 +1136,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.949852, 4.55103]
+    "coordinates" : [4.55103, 51.949852]
   },
   "properties" : {
     "name" : "i3D.net Datacenter Rotterdam",
@@ -1150,7 +1150,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.912672, 4.539411]
+    "coordinates" : [4.539411, 51.912672]
   },
   "properties" : {
     "name" : "InterBox Internet",
@@ -1164,7 +1164,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.962906, 4.584266]
+    "coordinates" : [4.584266, 51.962906]
   },
   "properties" : {
     "name" : "The Datacenter Group",
@@ -1178,7 +1178,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.987067, 4.377386]
+    "coordinates" : [4.377386, 51.987067]
   },
   "properties" : {
     "name" : "Intersquare",
@@ -1192,7 +1192,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.369424, 6.155852]
+    "coordinates" : [6.155852, 51.369424]
   },
   "properties" : {
     "name" : "Systemec Datacenter DC19",
@@ -1206,7 +1206,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.378376, 6.158818]
+    "coordinates" : [6.158818, 51.378376]
   },
   "properties" : {
     "name" : "Systemec Datacenter DC25",
@@ -1220,7 +1220,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.378373, 6.159216]
+    "coordinates" : [6.159216, 51.378373]
   },
   "properties" : {
     "name" : "Interconnect - 's-Hertogenbosch",
@@ -1234,7 +1234,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.686561, 5.358767]
+    "coordinates" : [5.358767, 51.686561]
   },
   "properties" : {
     "name" : "Greenhouse Datacenter",
@@ -1248,7 +1248,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.001194, 4.210829]
+    "coordinates" : [4.210829, 52.001194]
   },
   "properties" : {
     "name" : "ECO2DC",
@@ -1262,7 +1262,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.587535, 4.305055]
+    "coordinates" : [4.305055, 51.587535]
   },
   "properties" : {
     "name" : "Nedzone",
@@ -1276,7 +1276,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.247481, 6.524801]
+    "coordinates" : [6.524801, 53.247481]
   },
   "properties" : {
     "name" : "Bytesnet Datacenter d'Root",
@@ -1290,7 +1290,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.246048, 6.52852]
+    "coordinates" : [6.52852, 53.246048]
   },
   "properties" : {
     "name" : "TCN Data Hotel Groningen",
@@ -1304,7 +1304,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.207462, 6.473715]
+    "coordinates" : [6.473715, 53.207462]
   },
   "properties" : {
     "name" : "KPN Datacenter Groningen",
@@ -1318,7 +1318,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.209328, 6.585869]
+    "coordinates" : [6.585869, 53.209328]
   },
   "properties" : {
     "name" : "Bardeen Datahotel",
@@ -1332,7 +1332,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.238051, 6.536007]
+    "coordinates" : [6.536007, 53.238051]
   },
   "properties" : {
     "name" : "Rekenhal",
@@ -1346,7 +1346,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.238051, 6.536007]
+    "coordinates" : [6.536007, 53.238051]
   },
   "properties" : {
     "name" : "Zernikeborg",
@@ -1360,7 +1360,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.437458, 6.858136]
+    "coordinates" : [6.858136, 53.437458]
   },
   "properties" : {
     "name" : "Data Hotel Eemshaven",
@@ -1374,7 +1374,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.4243, 6.85871]
+    "coordinates" : [6.85871, 53.4243]
   },
   "properties" : {
     "name" : "Google Datacenter",
@@ -1388,7 +1388,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.165015, 6.864552]
+    "coordinates" : [6.864552, 53.165015]
   },
   "properties" : {
     "name" : "Datacenter Groningen B.V.",
@@ -1402,7 +1402,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.689822, 4.7022]
+    "coordinates" : [4.7022, 52.689822]
   },
   "properties" : {
     "name" : "Essent Kabelcom",
@@ -1416,7 +1416,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.034989, 5.169098]
+    "coordinates" : [5.169098, 52.034989]
   },
   "properties" : {
     "name" : "ITDev Solutions",
@@ -1430,7 +1430,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.989181, 6.579846]
+    "coordinates" : [6.579846, 52.989181]
   },
   "properties" : {
     "name" : "Morphlix",
@@ -1444,7 +1444,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.56316, 5.049367]
+    "coordinates" : [5.049367, 51.56316]
   },
   "properties" : {
     "name" : "NBrIX",
@@ -1458,7 +1458,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.823334, 4.81607]
+    "coordinates" : [4.81607, 51.823334]
   },
   "properties" : {
     "name" : "Nedcomp",
@@ -1472,7 +1472,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.892065, 6.027836]
+    "coordinates" : [6.027836, 50.892065]
   },
   "properties" : {
     "name" : "Open Line Landgraaf",
@@ -1486,7 +1486,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.694424, 5.183921]
+    "coordinates" : [5.183921, 51.694424]
   },
   "properties" : {
     "name" : "Pelu Datacenter",
@@ -1500,7 +1500,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.18219, 5.558343]
+    "coordinates" : [5.558343, 53.18219]
   },
   "properties" : {
     "name" : "PowerXS Telecom DC Franeker",
@@ -1514,7 +1514,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.714714, 6.201482]
+    "coordinates" : [6.201482, 52.714714]
   },
   "properties" : {
     "name" : "Serverius SDC2",
@@ -1528,7 +1528,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.656025, 6.734056]
+    "coordinates" : [6.734056, 52.656025]
   },
   "properties" : {
     "name" : "I-DATACENTER",
@@ -1542,7 +1542,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.658351, 6.754949]
+    "coordinates" : [6.754949, 52.658351]
   },
   "properties" : {
     "name" : "Muller Networks",
@@ -1556,7 +1556,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.938069, 5.875016]
+    "coordinates" : [5.875016, 50.938069]
   },
   "properties" : {
     "name" : "Emango Datacenter",
@@ -1570,7 +1570,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.892319, 5.971308]
+    "coordinates" : [5.971308, 50.892319]
   },
   "properties" : {
     "name" : "SmartDC Heerlen",
@@ -1584,7 +1584,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.242621, 5.164383]
+    "coordinates" : [5.164383, 52.242621]
   },
   "properties" : {
     "name" : "Alticom Datacenter Hilversum",
@@ -1598,7 +1598,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.241273, 5.169137]
+    "coordinates" : [5.169137, 52.241273]
   },
   "properties" : {
     "name" : "Media Gateway",
@@ -1612,7 +1612,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.497903, 4.796128]
+    "coordinates" : [4.796128, 52.497903]
   },
   "properties" : {
     "name" : "Alticom Datacenter Wormer",
@@ -1626,7 +1626,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.082813, 4.891153]
+    "coordinates" : [4.891153, 52.082813]
   },
   "properties" : {
     "name" : "Switch Datacenters Woerden",
@@ -1640,7 +1640,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.040541, 5.556611]
+    "coordinates" : [5.556611, 52.040541]
   },
   "properties" : {
     "name" : "Cloud Centre Claudia",
@@ -1654,7 +1654,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.902797, 6.403538]
+    "coordinates" : [6.403538, 52.902797]
   },
   "properties" : {
     "name" : "CJ2 Datatoren",
@@ -1668,7 +1668,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.018592, 5.104102]
+    "coordinates" : [5.104102, 52.018592]
   },
   "properties" : {
     "name" : "BT DC Nieuwegein",
@@ -1682,7 +1682,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.522194, 5.437404]
+    "coordinates" : [5.437404, 52.522194]
   },
   "properties" : {
     "name" : "Alticom Datacenter Lelystad",
@@ -1696,7 +1696,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.20489, 5.765277]
+    "coordinates" : [5.765277, 53.20489]
   },
   "properties" : {
     "name" : "DataCenter Fryslan 1",
@@ -1710,7 +1710,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [53.20489, 5.765277]
+    "coordinates" : [5.765277, 53.20489]
   },
   "properties" : {
     "name" : "DataCenter Fryslan 1",
@@ -1724,7 +1724,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.909108, 5.698838]
+    "coordinates" : [5.698838, 52.909108]
   },
   "properties" : {
     "name" : "ViaData Toren",
@@ -1738,7 +1738,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.995908, 5.845431]
+    "coordinates" : [5.845431, 50.995908]
   },
   "properties" : {
     "name" : "Unilogic Networks",
@@ -1752,7 +1752,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.928065, 5.781152]
+    "coordinates" : [5.781152, 50.928065]
   },
   "properties" : {
     "name" : "Cofely Datacenter Maastricht-Airport",
@@ -1766,7 +1766,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.16569, 5.899454]
+    "coordinates" : [5.899454, 52.16569]
   },
   "properties" : {
     "name" : "Alticom Datacenter Ugchelen",
@@ -1780,7 +1780,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.832007, 5.926008]
+    "coordinates" : [5.926008, 50.832007]
   },
   "properties" : {
     "name" : "Datacenter Eys",
@@ -1794,7 +1794,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.177003, 5.835225]
+    "coordinates" : [5.835225, 51.177003]
   },
   "properties" : {
     "name" : "Datacenter Ittervoort",
@@ -1808,7 +1808,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.840286, 5.659369]
+    "coordinates" : [5.659369, 50.840286]
   },
   "properties" : {
     "name" : "Datacenter Maastricht",
@@ -1822,7 +1822,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.864064, 5.709744]
+    "coordinates" : [5.709744, 50.864064]
   },
   "properties" : {
     "name" : "EKC Limmel",
@@ -1836,7 +1836,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.183717, 5.976115]
+    "coordinates" : [5.976115, 51.183717]
   },
   "properties" : {
     "name" : "Datacenter Roermond",
@@ -1850,7 +1850,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.19132, 5.987772]
+    "coordinates" : [5.987772, 51.19132]
   },
   "properties" : {
     "name" : "Datacenter Zuid BV",
@@ -1864,7 +1864,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.193267, 6.01987]
+    "coordinates" : [6.01987, 51.193267]
   },
   "properties" : {
     "name" : "ENNE Solutions",
@@ -1878,7 +1878,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.526324, 5.704135]
+    "coordinates" : [5.704135, 51.526324]
   },
   "properties" : {
     "name" : "Datacenter Gemert",
@@ -1892,7 +1892,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.567534, 6.622166]
+    "coordinates" : [6.622166, 52.567534]
   },
   "properties" : {
     "name" : "Ecostora HDB01",
@@ -1906,7 +1906,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.607268, 5.075431]
+    "coordinates" : [5.075431, 51.607268]
   },
   "properties" : {
     "name" : "Datacenter Loon op Zand",
@@ -1920,7 +1920,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.809323, 5.594093]
+    "coordinates" : [5.594093, 51.809323]
   },
   "properties" : {
     "name" : "Datacenter Megen",
@@ -1934,7 +1934,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.437986, 5.604801]
+    "coordinates" : [5.604801, 51.437986]
   },
   "properties" : {
     "name" : "Datacenter Mierlo",
@@ -1948,7 +1948,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.523057, 4.461151]
+    "coordinates" : [4.461151, 51.523057]
   },
   "properties" : {
     "name" : "Datacenter Roosendaal",
@@ -1962,7 +1962,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.2369, 6.441662]
+    "coordinates" : [6.441662, 52.2369]
   },
   "properties" : {
     "name" : "Datacenter Markelo",
@@ -1976,7 +1976,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.533618, 6.139619]
+    "coordinates" : [6.139619, 52.533618]
   },
   "properties" : {
     "name" : "Datacenter Zwolle",
@@ -1990,7 +1990,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.488394, 6.142599]
+    "coordinates" : [6.142599, 52.488394]
   },
   "properties" : {
     "name" : "ZW1 Zwolle IBX® Data Center",
@@ -2004,7 +2004,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.284928, 6.767381]
+    "coordinates" : [6.767381, 52.284928]
   },
   "properties" : {
     "name" : "PCD1",
@@ -2018,7 +2018,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.243834, 6.767264]
+    "coordinates" : [6.767264, 52.243834]
   },
   "properties" : {
     "name" : "PCD2",
@@ -2032,7 +2032,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.237001, 6.849658]
+    "coordinates" : [6.849658, 52.237001]
   },
   "properties" : {
     "name" : "Datacenter Enschede",
@@ -2046,7 +2046,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.216301, 6.820988]
+    "coordinates" : [6.820988, 52.216301]
   },
   "properties" : {
     "name" : "DataCentrum Twente",
@@ -2060,7 +2060,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.2203, 6.864338]
+    "coordinates" : [6.864338, 52.2203]
   },
   "properties" : {
     "name" : "InterDC",
@@ -2074,7 +2074,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.002407, 5.050569]
+    "coordinates" : [5.050569, 52.002407]
   },
   "properties" : {
     "name" : "Datacenter IJsselstein",
@@ -2088,7 +2088,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.510823, 3.884479]
+    "coordinates" : [3.884479, 51.510823]
   },
   "properties" : {
     "name" : "Datacenter Goes",
@@ -2102,7 +2102,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.491941, 3.885993]
+    "coordinates" : [3.885993, 51.491941]
   },
   "properties" : {
     "name" : "ZeelandNet Zakelijk",
@@ -2116,7 +2116,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.136933, 4.646499]
+    "coordinates" : [4.646499, 52.136933]
   },
   "properties" : {
     "name" : "Datacenter Alphen aan den Rijn",
@@ -2130,7 +2130,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.131092, 4.640164]
+    "coordinates" : [4.640164, 52.131092]
   },
   "properties" : {
     "name" : "Alldatacenter BV",
@@ -2144,7 +2144,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.080714, 4.335857]
+    "coordinates" : [4.335857, 52.080714]
   },
   "properties" : {
     "name" : "Datacenter Den Haag",
@@ -2158,7 +2158,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.064513, 4.386809]
+    "coordinates" : [4.386809, 52.064513]
   },
   "properties" : {
     "name" : "Data facilities Den Haag",
@@ -2172,7 +2172,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.845913, 4.679147]
+    "coordinates" : [4.679147, 51.845913]
   },
   "properties" : {
     "name" : "Dataplace Rotterdam",
@@ -2186,7 +2186,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.858243, 4.664457]
+    "coordinates" : [4.664457, 51.858243]
   },
   "properties" : {
     "name" : "Datapark Nederland",
@@ -2200,7 +2200,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.122761, 5.143087]
+    "coordinates" : [5.143087, 52.122761]
   },
   "properties" : {
     "name" : "Dataplace Utrecht",
@@ -2214,7 +2214,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.715909, 5.29572]
+    "coordinates" : [5.29572, 51.715909]
   },
   "properties" : {
     "name" : "Blue Star",
@@ -2228,7 +2228,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.069108, 5.07867]
+    "coordinates" : [5.07867, 52.069108]
   },
   "properties" : {
     "name" : "RAM Infotechnology",
@@ -2242,7 +2242,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.988021, 5.932863]
+    "coordinates" : [5.932863, 51.988021]
   },
   "properties" : {
     "name" : "Dataplace Arnhem",
@@ -2256,7 +2256,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.698233, 5.183618]
+    "coordinates" : [5.183618, 51.698233]
   },
   "properties" : {
     "name" : "Databalance Services B.V.",
@@ -2270,7 +2270,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [50.962022, 5.820668]
+    "coordinates" : [5.820668, 50.962022]
   },
   "properties" : {
     "name" : "Data Exchange Europe",
@@ -2284,7 +2284,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.69582, 5.038593]
+    "coordinates" : [5.038593, 51.69582]
   },
   "properties" : {
     "name" : "Dataplace Brabant",
@@ -2298,7 +2298,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.855601, 4.301611]
+    "coordinates" : [4.301611, 51.855601]
   },
   "properties" : {
     "name" : "Data Facilities Spijkenisse",
@@ -2312,7 +2312,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.27444, 4.741823]
+    "coordinates" : [4.741823, 52.27444]
   },
   "properties" : {
     "name" : "Interxion AMS8",
@@ -2326,7 +2326,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.289965, 4.678661]
+    "coordinates" : [4.678661, 52.289965]
   },
   "properties" : {
     "name" : "De President Business Park",
@@ -2340,7 +2340,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.197477, 5.39314]
+    "coordinates" : [5.39314, 52.197477]
   },
   "properties" : {
     "name" : "Datahouse Amersfoort",
@@ -2354,7 +2354,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.59289, 4.803156]
+    "coordinates" : [4.803156, 51.59289]
   },
   "properties" : {
     "name" : "Concepts ICT",
@@ -2368,7 +2368,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.594931, 4.823378]
+    "coordinates" : [4.823378, 51.594931]
   },
   "properties" : {
     "name" : "@Xit",
@@ -2382,7 +2382,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.614189, 4.758859]
+    "coordinates" : [4.758859, 51.614189]
   },
   "properties" : {
     "name" : "Zelybron DC Breda",
@@ -2396,7 +2396,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.579078, 4.929288]
+    "coordinates" : [4.929288, 51.579078]
   },
   "properties" : {
     "name" : "Global-e Datacenter BV",
@@ -2410,7 +2410,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.943255, 4.772343]
+    "coordinates" : [4.772343, 52.943255]
   },
   "properties" : {
     "name" : "Dataport",
@@ -2424,7 +2424,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.477539, 5.620858]
+    "coordinates" : [5.620858, 51.477539]
   },
   "properties" : {
     "name" : "e-Quest Datacenter",
@@ -2438,7 +2438,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.801263, 5.257389]
+    "coordinates" : [5.257389, 51.801263]
   },
   "properties" : {
     "name" : "DC Zaltbommel (DCZA)",
@@ -2452,7 +2452,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.824519, 5.825214]
+    "coordinates" : [5.825214, 51.824519]
   },
   "properties" : {
     "name" : "Digital Residence",
@@ -2466,7 +2466,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.238602, 6.195004]
+    "coordinates" : [6.195004, 52.238602]
   },
   "properties" : {
     "name" : "ITB2 Datacenter Deventer",
@@ -2480,7 +2480,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.238553, 6.203004]
+    "coordinates" : [6.203004, 52.238553]
   },
   "properties" : {
     "name" : "Green Data Systems",
@@ -2494,7 +2494,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.238553, 6.203004]
+    "coordinates" : [6.203004, 52.238553]
   },
   "properties" : {
     "name" : "1TransVir",
@@ -2508,7 +2508,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.954184, 6.300252]
+    "coordinates" : [6.300252, 51.954184]
   },
   "properties" : {
     "name" : "DataCentrum Doetinchem",
@@ -2522,7 +2522,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.543666, 5.705215]
+    "coordinates" : [5.705215, 52.543666]
   },
   "properties" : {
     "name" : "Serverius SDC1",
@@ -2536,7 +2536,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.539145, 5.702179]
+    "coordinates" : [5.702179, 52.539145]
   },
   "properties" : {
     "name" : "Solcon, locatie Dronten",
@@ -2550,7 +2550,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.030762, 5.624974]
+    "coordinates" : [5.624974, 52.030762]
   },
   "properties" : {
     "name" : "BIT-1",
@@ -2564,7 +2564,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.027428, 5.624266]
+    "coordinates" : [5.624266, 52.027428]
   },
   "properties" : {
     "name" : "BIT-2A",
@@ -2578,7 +2578,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.027428, 5.624266]
+    "coordinates" : [5.624266, 52.027428]
   },
   "properties" : {
     "name" : "BIT-2B",
@@ -2592,7 +2592,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.027428, 5.624266]
+    "coordinates" : [5.624266, 52.027428]
   },
   "properties" : {
     "name" : "BIT-2C",
@@ -2606,7 +2606,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.027428, 5.624266]
+    "coordinates" : [5.624266, 52.027428]
   },
   "properties" : {
     "name" : "BIT-2D",
@@ -2620,11 +2620,11 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [51.501483, 3.910038]
+    "coordinates" : [3.910038, 51.501483]
   },
   "properties" : {
     "name" : "CyberBunker",
-    "address" : "Zomerweg 4481CA Kloetinge",
+    "address" : "Zomerweg 4481 CA Kloetinge",
     "owner" : "CyberBunker",
     "emission" : "",
     "energylabel" : "",
@@ -2634,11 +2634,11 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.033223, 4.496307]
+    "coordinates" : [4.496307, 52.033223]
   },
   "properties" : {
     "name" : "ColoCenter",
-    "address" : "Heliumstraat 200 2718RS Zoetermeer",
+    "address" : "Heliumstraat 200 2718 RS Zoetermeer",
     "owner" : "ColoCenter",
     "emission" : "",
     "energylabel" : "",
@@ -2648,7 +2648,7 @@
   "type" : "Feature",
   "geometry" : {
     "type" : "Point",
-    "coordinates" : [52.764930, 5.039590]
+    "coordinates" : [5.039590, 52.764930]
   },
   "properties" : {
     "name" : "Microsoft North Amsterdam Data Center Campus",
