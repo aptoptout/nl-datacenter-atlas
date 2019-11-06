@@ -1,0 +1,2661 @@
+[{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.309485, 4.935572]
+  },
+  "properties" : {
+    "name" : "Cateringweg 5",
+    "address" : "Cateringweg 5 1118AM Schiphol",
+    "owner" : "Digital Realty (managed by Terremark)",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.303912, 4.93948]
+  },
+  "properties" : {
+    "name" : "Cateringweg 5",
+    "address" : "Cateringweg 5 1118AM Schiphol",
+    "owner" : "Digital Realty (managed by Terremark)",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.303912, 4.93948]
+  },
+  "properties" : {
+    "name" : "Switch Datacenters Amsterdam",
+    "address" : "Lemelerbergweg 28 1101AH Amsterdam",
+    "owner" : "Switch Datacenters",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.399869, 4.842347]
+  },
+  "properties" : {
+    "name" : "Switch Datacenters Amsterdam 3",
+    "address" : "Lemelerbergweg 28 1101AH Amsterdam",
+    "owner" : "Switch Datacenters",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.399474, 4.843834]
+  },
+  "properties" : {
+    "name" : "Interxion AMS1",
+    "address" : "Gyroscoopweg 58 1042AC Amsterdam",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.399861, 4.842597]
+  },
+  "properties" : {
+    "name" : "Interxion AMS2",
+    "address" : "Gyroscoopweg 72 1042AC Amsterdam",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.299929, 4.943121]
+  },
+  "properties" : {
+    "name" : "Interxion AMS4",
+    "address" : "Gyroscoopweg 60 1042AC Amsterdam",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.299929, 4.943121]
+  },
+  "properties" : {
+    "name" : "Paul Van Vlissingenstraat 16",
+    "address" : "Paul Van Vlissingenstraat 16 1096BK Amsterdam",
+    "owner" : "Digital Realty",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.293351, 4.945054]
+  },
+  "properties" : {
+    "name" : "Matrix 4",
+    "address" : "Science Park 404 1098 Amsterdam",
+    "owner" : "IPTP Networks",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.39676, 4.838742]
+  },
+  "properties" : {
+    "name" : "AM1 Amsterdam IBX® Data Center",
+    "address" : "Luttenbergweg 4 1101EC Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.300183, 4.955048]
+  },
+  "properties" : {
+    "name" : "AM2 Amsterdam IBX® Data Center",
+    "address" : "Luttenbergweg 4 1101EC Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.336277, 4.886678]
+  },
+  "properties" : {
+    "name" : "AM3 Amsterdam IBX® Data Center",
+    "address" : "Science Park 610 1098XH Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.34339, 4.844303]
+  },
+  "properties" : {
+    "name" : "AM4 Amsterdam IBX® Data Center",
+    "address" : "Science Park 610 1098XH Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.33476, 4.93186]
+  },
+  "properties" : {
+    "name" : "AM5 Amsterdam IBX® Data Center",
+    "address" : "Schepenbergweg 42 1105AT Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.396443, 4.851132]
+  },
+  "properties" : {
+    "name" : "AM6 Amsterdam IBX® Data Center",
+    "address" : "Duivendrechtsekade 80A 1096AH Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.385756, 4.832253]
+  },
+  "properties" : {
+    "name" : "AM7 Amsterdam IBX® Data Center",
+    "address" : "Kuiperbergweg 13 1101AE Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.395902, 4.870918]
+  },
+  "properties" : {
+    "name" : "AM8 Amsterdam IBX® Data Center",
+    "address" : "Gyroscoopweg 2E-F 1042AM Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.395778, 4.849488]
+  },
+  "properties" : {
+    "name" : "The Datacenter Group",
+    "address" : "Kabelweg 48a 1014BB Amsterdam",
+    "owner" : "The Datacenter Group",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.35396, 4.951214]
+  },
+  "properties" : {
+    "name" : "Vancis B.V.",
+    "address" : "Science Park 121 1098XH Amsterdam",
+    "owner" : "Vancis B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.35396, 4.951214]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Amsterdam",
+    "address" : "Paalbergweg 1-3 1105AG Amsterdam",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.207393, 6.878966]
+  },
+  "properties" : {
+    "name" : "Alticom Datacenter Amsterdam",
+    "address" : "Barbara Strozzilaan 251 1083HN Amsterdam",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.35396, 4.951214]
+  },
+  "properties" : {
+    "name" : "Colt Amsterdam, Oud-Zuid",
+    "address" : "1059CA Amsterdam",
+    "owner" : "Colt Technology Services",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.322569, 4.802151]
+  },
+  "properties" : {
+    "name" : "Level 3 Amsterdam",
+    "address" : "Joop Geesinkweg 401-404 1096AX Amsterdam",
+    "owner" : "Level 3",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.333408, 4.919441]
+  },
+  "properties" : {
+    "name" : "Level 3 Amsterdam",
+    "address" : "Stekkenbergweg 4 1105AJ Amsterdam",
+    "owner" : "Level 3",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.356626, 4.958019]
+  },
+  "properties" : {
+    "name" : "TelecityGroup Amstel Business Park",
+    "address" : "H.J.E. Wenckebachweg 127 1096AM Amsterdam",
+    "owner" : "Digital Realty",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.354925, 4.96096]
+  },
+  "properties" : {
+    "name" : "Amsterdam Data Tower",
+    "address" : "Science Park 120 1098XG Amsterdam",
+    "owner" : "Digital Realty",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.29643, 4.94859]
+  },
+  "properties" : {
+    "name" : "GYRO Center Amsterdam Amsterdam",
+    "address" : "Gyroscoopweg 134-140 1042AZ",
+    "owner" : "GYRO Center",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.292431, 4.788323]
+  },
+  "properties" : {
+    "name" : "Colt",
+    "address" : "Van der Madeweg 12-14a 1099BT Amsterdam",
+    "owner" : "Colt Technology Services",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.354925, 4.96096]
+  },
+  "properties" : {
+    "name" : "Databarn Amsterdam B.V.",
+    "address" : "Zekeringstraat 35 1014BV Amsterdam",
+    "owner" : "Databarn Amsterdam B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.337296, 4.93365]
+  },
+  "properties" : {
+    "name" : "Global One",
+    "address" : "Heathrowstraat 10 1043CH Amsterdam",
+    "owner" : "Global One",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.303078, 4.938009]
+  },
+  "properties" : {
+    "name" : "Global Switch",
+    "address" : "Johan Huizingalaan 759 1066VH Amsterdam",
+    "owner" : "Global Switch",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.392897, 4.849214]
+  },
+  "properties" : {
+    "name" : "Eweka DC",
+    "address" : "Westhavenweg 60B 1042AL Amsterdam",
+    "owner" : "Eweka DC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.356671, 4.952501]
+  },
+  "properties" : {
+    "name" : "DCA",
+    "address" : "Archangelkade 1/3 1013BE Amsterdam",
+    "owner" : "DCA",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.336524, 4.931893]
+  },
+  "properties" : {
+    "name" : "IS Group",
+    "address" : "Zekeringstraat 43 1014BV Amsterdam",
+    "owner" : "KPN",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.357161, 4.950882]
+  },
+  "properties" : {
+    "name" : "Nikhef",
+    "address" : "Kruislaan 409 1098SL Amsterdam",
+    "owner" : "Nikhef",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.328278, 4.926198]
+  },
+  "properties" : {
+    "name" : "RDC Datacentrum",
+    "address" : "De Klencke 10-12 1083HL Amsterdam",
+    "owner" : "RDC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.343984, 4.828712]
+  },
+  "properties" : {
+    "name" : "SARA Amsterdam",
+    "address" : "Kruislaan 415 1098SL Amsterdam",
+    "owner" : "SURF U.A.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.408398, 4.828869]
+  },
+  "properties" : {
+    "name" : "Vancis",
+    "address" : "Science Park 140 1098XG Amsterdam",
+    "owner" : "Vancis",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.333972, 4.885484]
+  },
+  "properties" : {
+    "name" : "Verizon 1",
+    "address" : "Joan Muyskenweg 24 1096CJ Amsterdam",
+    "owner" : "Verizon",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.356921, 4.954253]
+  },
+  "properties" : {
+    "name" : "Verizon 2",
+    "address" : "Kollenbergweg 13 1101AR Amsterdam",
+    "owner" : "Verizon",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.332571, 4.913962]
+  },
+  "properties" : {
+    "name" : "XS4ALL DC2",
+    "address" : "Drentestraat 12 1083HK Amsterdam",
+    "owner" : "XS4ALL",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.30491, 4.935663]
+  },
+  "properties" : {
+    "name" : "TelecityGroup Amsterdam",
+    "address" : "Kruislaan 411 1098SJ Amsterdam",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.35672, 4.956934]
+  },
+  "properties" : {
+    "name" : "Vancis Amsterdam",
+    "address" : "Gebouw Matrix III Science Park 402 1098XH Amsterdam",
+    "owner" : "Vancis",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.400496, 4.842911]
+  },
+  "properties" : {
+    "name" : "Interoute Amsterdam",
+    "address" : "Koolhovenlaan 120 1119NR Schiphol-Rijk",
+    "owner" : "Interoute Communications Ltd",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.27956, 4.755958]
+  },
+  "properties" : {
+    "name" : "Interxion AMS3",
+    "address" : "Cessnalaan 1-33 1119NJ Schiphol-Rijk",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.786894, 6.118069]
+  },
+  "properties" : {
+    "name" : "Interxion AMS5",
+    "address" : "Tupolevlaan 101 1119PA Schiphol-Rijk",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.28415, 4.770855]
+  },
+  "properties" : {
+    "name" : "Interxion AMS6",
+    "address" : "1119PA Schiphol-Rijk",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.280312, 4.753851]
+  },
+  "properties" : {
+    "name" : "Interxion AMS7",
+    "address" : "Cessnalaan 50 1119NJ Schiphol-Rijk",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.280356, 4.753675]
+  },
+  "properties" : {
+    "name" : "Maincubes AMS01 Schiphol",
+    "address" : "Capronilaan 2 1119NR Schiphol-Rijk",
+    "owner" : "Maincubes B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.281252, 4.765043]
+  },
+  "properties" : {
+    "name" : "atom86",
+    "address" : "Boeing Avenue 271 1119PD Schiphol-Rijk",
+    "owner" : "atom86",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.282192, 4.772861]
+  },
+  "properties" : {
+    "name" : "Cogent Datacenter Halfweg",
+    "address" : "Haarlemmerstraatweg 135 1165MK Halfweg",
+    "owner" : "Cogent Communications, Inc.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.274896, 4.750866]
+  },
+  "properties" : {
+    "name" : "NLDC Datacenter Amsterdam 2 ",
+    "address" : "Lakenblekerstraat 13 1431GE Aalsmeer",
+    "owner" : "NLDC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.384505, 4.717155]
+  },
+  "properties" : {
+    "name" : "Datahouse Datacenters",
+    "address" : "Professor van der Waalsstraat 1821BT Alkmaar",
+    "owner" : "Datahouse Datacenters",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.259264, 4.773709]
+  },
+  "properties" : {
+    "name" : "Signet",
+    "address" : "Science Park Eindhoven 5218 5692EG Son",
+    "owner" : "Signet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.625046, 4.76981]
+  },
+  "properties" : {
+    "name" : "TeDoc Web Management",
+    "address" : "Kerkstraat 26 8471CD Wolvega",
+    "owner" : "TeDoc Web Management",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.501266, 5.460506]
+  },
+  "properties" : {
+    "name" : "Zeelandnet",
+    "address" : "Het Rip 9 4493RL Kamperland",
+    "owner" : "Zeelandnet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.876458, 5.997082]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Flevoland",
+    "address" : "Rondebeltweg 62 1329BG Almere",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.574114, 3.700106]
+  },
+  "properties" : {
+    "name" : "Vancis Almere",
+    "address" : "Randstad 22 153 1316BM Almere",
+    "owner" : "Vancis",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.364353, 5.268793]
+  },
+  "properties" : {
+    "name" : "Final Frontier",
+    "address" : "Cypergrasweg 3C 1313AK Almere",
+    "owner" : "Final Frontier",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.378152, 5.229227]
+  },
+  "properties" : {
+    "name" : "Mihos BV",
+    "address" : "Striptekenaar 76 1336CM Almere",
+    "owner" : "Mihos BV",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.38546, 5.204234]
+  },
+  "properties" : {
+    "name" : "UNET Almere",
+    "address" : "Transistorstraat 7c 1322CJ Almere",
+    "owner" : "UNET Almere",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.40744, 5.321596]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Apeldoorn",
+    "address" : "Fauststraat 1 7323BA Apeldoorn",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.346588, 5.182618]
+  },
+  "properties" : {
+    "name" : "Computel Datacenter Gelderland",
+    "address" : "Schumanpark 29-31 7336AM Apeldoorn",
+    "owner" : "Computel",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.232416, 5.976736]
+  },
+  "properties" : {
+    "name" : "ITB2 Datacenter Apeldoorn",
+    "address" : "Grote Woudhuis 5 7325WM Apeldoorn",
+    "owner" : "ITB2",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.194743, 5.943514]
+  },
+  "properties" : {
+    "name" : "Solcon, locatie Apeldoorn",
+    "address" : "Laan van de Ram 39 7324BW Apeldoorn",
+    "owner" : "Solcon",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.199554, 6.026183]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Eindhoven",
+    "address" : "High Tech Campus 53 5656AG Eindhoven",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.24703, 6.001603]
+  },
+  "properties" : {
+    "name" : "EcoRacks",
+    "address" : "Ambachtsweg 25-27 5627BZ Eindhoven",
+    "owner" : "EcoRacks",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.40762, 5.45911]
+  },
+  "properties" : {
+    "name" : "Interconnect - Eindhoven",
+    "address" : "Park Forum 1041 5657HJ Eindhoven",
+    "owner" : "Interconnect",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.478509, 5.440275]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Haarlem",
+    "address" : "A. Hofmanweg 1 2031BH Haarlem",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.442134, 5.387441]
+  },
+  "properties" : {
+    "name" : "Alticom Datacenter Haarlem",
+    "address" : "A. Hofmanweg 1 2031BH Haarlem",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.388166, 4.669602]
+  },
+  "properties" : {
+    "name" : "Iron Mountain - AMS-1",
+    "address" : "J.W. Lucasweg 35 2031BE Haarlem",
+    "owner" : "Iron Mountain",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.388166, 4.669602]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Oude Meer",
+    "address" : "Fokker Logistics Park Gebouw 59 Fokkerweg 300 1438AN Oude Meer",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.391185, 4.665399]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Rotterdam",
+    "address" : "Anthony Fokkerweg 40 3088GG Rotterdam",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.875343, 4.449031]
+  },
+  "properties" : {
+    "name" : "Alticom Datacenter Rotterdam",
+    "address" : "Anthony Fokkerweg 40 3088GG Rotterdam",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.875343, 4.449031]
+  },
+  "properties" : {
+    "name" : "SmartDC :  Dataport of Rotterdam",
+    "address" : "Van Nelleweg 1 3044BC Rotterdam",
+    "owner" : "SmartDC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.92324, 4.43342]
+  },
+  "properties" : {
+    "name" : "Bytesnet Rotterdam",
+    "address" : "Schuttevaerweg 48 3044BB Rotterdam",
+    "owner" : "Bytesnet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.930144, 4.414046]
+  },
+  "properties" : {
+    "name" : "Databarn Rivium B.V.",
+    "address" : "Rivium Boulevard 62 2909LK Rotterdam",
+    "owner" : "Databarn",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.910353, 4.546727]
+  },
+  "properties" : {
+    "name" : "Easynet DC Rotterdam",
+    "address" : "Westzeedijk 487 3024EL Rotterdam",
+    "owner" : "Easynet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.904835, 4.457454]
+  },
+  "properties" : {
+    "name" : "Intermax - DC Schiecentrale",
+    "address" : "Weena Zuid 108 3012NC Rotterdam",
+    "owner" : "Intermax",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.922887, 4.474568]
+  },
+  "properties" : {
+    "name" : "Intermax - DC Schouwburgplein",
+    "address" : "Schouwburgplein 30-34 3012CL Rotterdam",
+    "owner" : "Intermax",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.92025, 4.474623]
+  },
+  "properties" : {
+    "name" : "Verizon 3",
+    "address" : "Koperstraat 6 3067GL Rotterdam",
+    "owner" : "Verizon",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.949852, 4.55103]
+  },
+  "properties" : {
+    "name" : "i3D.net Datacenter Rotterdam",
+    "address" : "Rivium 1e Straat 1 2909LE Capelle aan den IJssel",
+    "owner" : "i3D.net",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.912672, 4.539411]
+  },
+  "properties" : {
+    "name" : "InterBox Internet",
+    "address" : "Venkelbaan 58 2908KE Capelle aan den IJssel",
+    "owner" : "InterBox Internet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.962906, 4.584266]
+  },
+  "properties" : {
+    "name" : "The Datacenter Group",
+    "address" : "Heertjeslaan 1 2629JG Delft",
+    "owner" : "The Datacenter Group",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.987067, 4.377386]
+  },
+  "properties" : {
+    "name" : "Intersquare",
+    "address" : "1e Lambertusstraat 26 5921JS Venlo",
+    "owner" : "Intersquare",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.369424, 6.155852]
+  },
+  "properties" : {
+    "name" : "Systemec Datacenter DC19",
+    "address" : "Marinus Dammeweg 19 5928PW Venlo",
+    "owner" : "Systemec",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.378376, 6.158818]
+  },
+  "properties" : {
+    "name" : "Systemec Datacenter DC25",
+    "address" : "Marinus Dammeweg 25 5928PW Venlo",
+    "owner" : "Systemec",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.378373, 6.159216]
+  },
+  "properties" : {
+    "name" : "Interconnect - 's-Hertogenbosch",
+    "address" : "De Steenbok 1 5215MG ‘s-Hertogenbosch",
+    "owner" : "Interconnect",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.686561, 5.358767]
+  },
+  "properties" : {
+    "name" : "Greenhouse Datacenter",
+    "address" : "Industriestraat 24 2671CT Naaldwijk",
+    "owner" : "Greenhouse Datacenters B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.001194, 4.210829]
+  },
+  "properties" : {
+    "name" : "ECO2DC",
+    "address" : "Steenwijk",
+    "owner" : "ECO2DC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.587535, 4.305055]
+  },
+  "properties" : {
+    "name" : "Nedzone",
+    "address" : "Drukkerij 6 4651SL Steenbergen",
+    "owner" : "Nedzone",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.247481, 6.524801]
+  },
+  "properties" : {
+    "name" : "Bytesnet Datacenter d'Root",
+    "address" : "De Bunders 1 9747AB Groningen",
+    "owner" : "Bytesnet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.246048, 6.52852]
+  },
+  "properties" : {
+    "name" : "TCN Data Hotel Groningen",
+    "address" : "Zernikelaan 16 9747AA Groningen",
+    "owner" : "Bytesnet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.207462, 6.473715]
+  },
+  "properties" : {
+    "name" : "KPN Datacenter Groningen",
+    "address" : "Liverpoolweg 10 9744TW Groningen",
+    "owner" : "Koninklijke KPN N.V",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.209328, 6.585869]
+  },
+  "properties" : {
+    "name" : "Bardeen Datahotel",
+    "address" : "Winschoterdiep 50 9723AB Groningen",
+    "owner" : "Bardeen",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.238051, 6.536007]
+  },
+  "properties" : {
+    "name" : "Rekenhal",
+    "address" : "Nettelbosje 1 9747AJ Groningen",
+    "owner" : "Rekencentrum Rijksuniversiteit Groningen",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.238051, 6.536007]
+  },
+  "properties" : {
+    "name" : "Zernikeborg",
+    "address" : "Nettelbosje 1 9747AJ Groningen",
+    "owner" : "Rekencentrum Rijksuniversiteit Groningen",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.437458, 6.858136]
+  },
+  "properties" : {
+    "name" : "Data Hotel Eemshaven",
+    "address" : "Huibertgatweg 2 9979XZ Eemshaven",
+    "owner" : "TCN",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.4243, 6.85871]
+  },
+  "properties" : {
+    "name" : "Google Datacenter",
+    "address" : "Oostpolder 4 9979XT Eemshaven",
+    "owner" : "Google",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.165015, 6.864552]
+  },
+  "properties" : {
+    "name" : "Datacenter Groningen B.V.",
+    "address" : "Beneluxweg 4 9636HV Zuidbroek",
+    "owner" : "Datacenter Groningen B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.689822, 4.7022]
+  },
+  "properties" : {
+    "name" : "Essent Kabelcom",
+    "address" : "Aagtdorp",
+    "owner" : "Essent",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.034989, 5.169098]
+  },
+  "properties" : {
+    "name" : "ITDev Solutions",
+    "address" : "Het rond 30 3995DJ Houten",
+    "owner" : "ITDev Solutions",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.989181, 6.579846]
+  },
+  "properties" : {
+    "name" : "Morphlix",
+    "address" : "Brunelstraat 4 9404KD Assen",
+    "owner" : "Morphlix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.56316, 5.049367]
+  },
+  "properties" : {
+    "name" : "NBrIX",
+    "address" : "Professor Verbernelaan 35 5037AD Tilburg",
+    "owner" : "NBrIX",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.823334, 4.81607]
+  },
+  "properties" : {
+    "name" : "Nedcomp",
+    "address" : "Ambachtstraat 1c-d 3371XA Hardinxveld-Giessendam",
+    "owner" : "Nedcomp",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.892065, 6.027836]
+  },
+  "properties" : {
+    "name" : "Open Line Landgraaf",
+    "address" : "Minckelersstraat 2 6372PP Landgraaf",
+    "owner" : "Open Line Landgraaf",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.694424, 5.183921]
+  },
+  "properties" : {
+    "name" : "Pelu Datacenter",
+    "address" : "Middelweg 43 5253E Nieuwkuijk",
+    "owner" : "Pelu Datacenter",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.18219, 5.558343]
+  },
+  "properties" : {
+    "name" : "PowerXS Telecom DC Franeker",
+    "address" : "Oostelijke Industrieweg 4B 8801JW Franeker",
+    "owner" : "PowerXS Telecom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.714714, 6.201482]
+  },
+  "properties" : {
+    "name" : "Serverius SDC2",
+    "address" : "Ketelskamp 10 7942KG Meppel",
+    "owner" : "Serverius",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.656025, 6.734056]
+  },
+  "properties" : {
+    "name" : "I-DATACENTER",
+    "address" : "Monierweg 9 7741KV Coevorden",
+    "owner" : "I-DATACENTER",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.658351, 6.754949]
+  },
+  "properties" : {
+    "name" : "Muller Networks",
+    "address" : "Europaweg 2 7742PN Coevorden",
+    "owner" : "Muller Networks",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.938069, 5.875016]
+  },
+  "properties" : {
+    "name" : "Emango Datacenter",
+    "address" : "Breinder 24 6365CX Schinnen Schinnen",
+    "owner" : "Emango Internet Services BV",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.892319, 5.971308]
+  },
+  "properties" : {
+    "name" : "SmartDC Heerlen",
+    "address" : "Kloosterweg 1 6412CN Heerlen",
+    "owner" : "SmartDC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.242621, 5.164383]
+  },
+  "properties" : {
+    "name" : "Alticom Datacenter Hilversum",
+    "address" : "Witte Kruislaan 47-A 1217AM Hilversum",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.241273, 5.169137]
+  },
+  "properties" : {
+    "name" : "Media Gateway",
+    "address" : "Koos Postemalaan 2 1217ZC Hilversum",
+    "owner" : "Red Bee Media BV",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.497903, 4.796128]
+  },
+  "properties" : {
+    "name" : "Alticom Datacenter Wormer",
+    "address" : "Eenhoornweg 1 1531ME Wormer",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.082813, 4.891153]
+  },
+  "properties" : {
+    "name" : "Switch Datacenters Woerden",
+    "address" : "Polanerbaan 1-3 3447GN Woerden",
+    "owner" : "Switch",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.040541, 5.556611]
+  },
+  "properties" : {
+    "name" : "Cloud Centre Claudia",
+    "address" : "Plesmanstraat 51 3905KZ Veenendaal",
+    "owner" : "Cloud Centre Claudia",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.902797, 6.403538]
+  },
+  "properties" : {
+    "name" : "CJ2 Datatoren",
+    "address" : "Van Veenstraat 26 9423VB Hoogersmilde",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.018592, 5.104102]
+  },
+  "properties" : {
+    "name" : "BT DC Nieuwegein",
+    "address" : "3433PC Nieuwegein",
+    "owner" : "BT Netherlands",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.522194, 5.437404]
+  },
+  "properties" : {
+    "name" : "Alticom Datacenter Lelystad",
+    "address" : "Oostvaardersdijk 1-3 8244PA Lelystad",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.20489, 5.765277]
+  },
+  "properties" : {
+    "name" : "DataCenter Fryslan 1",
+    "address" : "FrancoisHaverSchmidtwei 3 8914BC Leeuwarden",
+    "owner" : "DataCenter Fryslan",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [53.20489, 5.765277]
+  },
+  "properties" : {
+    "name" : "DataCenter Fryslan 1",
+    "address" : "DataCenter Fryslan 2 8912AK Leeuwarden",
+    "owner" : "DataCenter Fryslan",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.909108, 5.698838]
+  },
+  "properties" : {
+    "name" : "ViaData Toren",
+    "address" : "Gaestdyk 3 8522MV Tjerkgaast",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.995908, 5.845431]
+  },
+  "properties" : {
+    "name" : "Unilogic Networks",
+    "address" : "Bergerweg 120 6135KD Sittard",
+    "owner" : "Unilogic",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.928065, 5.781152]
+  },
+  "properties" : {
+    "name" : "Cofely Datacenter Maastricht-Airport",
+    "address" : "Amerikalaan 35 6199AE Maastricht-Airport",
+    "owner" : "Cofely GDF SUEZ",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.16569, 5.899454]
+  },
+  "properties" : {
+    "name" : "Alticom Datacenter Ugchelen",
+    "address" : "Otterloseweg 110 7339GZ Ugchelen",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.832007, 5.926008]
+  },
+  "properties" : {
+    "name" : "Datacenter Eys",
+    "address" : "Eyserbosweg 27 6287NE Eys",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.177003, 5.835225]
+  },
+  "properties" : {
+    "name" : "Datacenter Ittervoort",
+    "address" : "Branskamp 16 6014CB Ittervoort",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.840286, 5.659369]
+  },
+  "properties" : {
+    "name" : "Datacenter Maastricht",
+    "address" : "Trichterbaan 170 6215XZ Maastricht",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.864064, 5.709744]
+  },
+  "properties" : {
+    "name" : "EKC Limmel",
+    "address" : "Populierweg 150 6222CT Maastricht",
+    "owner" : "EKC Limmel",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.183717, 5.976115]
+  },
+  "properties" : {
+    "name" : "Datacenter Roermond",
+    "address" : "Op de Meuleberg 7 6041NK Roermond",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.19132, 5.987772]
+  },
+  "properties" : {
+    "name" : "Datacenter Zuid BV",
+    "address" : "Postbus 1005 6040KA Roermond",
+    "owner" : "Datacenter Zuid BV",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.193267, 6.01987]
+  },
+  "properties" : {
+    "name" : "ENNE Solutions",
+    "address" : "Westhoven 6 6042NV Roermond",
+    "owner" : "ENNE Solutions",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.526324, 5.704135]
+  },
+  "properties" : {
+    "name" : "Datacenter Gemert",
+    "address" : "Hemelsbleekweg 15 5425PB De Mortel",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.567534, 6.622166]
+  },
+  "properties" : {
+    "name" : "Ecostora HDB01",
+    "address" : "Bruchterweg 88 7772BJ Hardenberg",
+    "owner" : "Ecostora",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.607268, 5.075431]
+  },
+  "properties" : {
+    "name" : "Datacenter Loon op Zand",
+    "address" : "Finantiën 5 5175NW Loon op Zand",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.809323, 5.594093]
+  },
+  "properties" : {
+    "name" : "Datacenter Megen",
+    "address" : "Ravensteinsedijk 2-A 5368LB Megen",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.437986, 5.604801]
+  },
+  "properties" : {
+    "name" : "Datacenter Mierlo",
+    "address" : "Torenweg 1 5731CJ Mierlo",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.523057, 4.461151]
+  },
+  "properties" : {
+    "name" : "Datacenter Roosendaal",
+    "address" : "Melis Stokelaan 25 4707HP Roosendaal",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.2369, 6.441662]
+  },
+  "properties" : {
+    "name" : "Datacenter Markelo",
+    "address" : "Larenseweg 58 7475PX Markelo",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.533618, 6.139619]
+  },
+  "properties" : {
+    "name" : "Datacenter Zwolle",
+    "address" : "Bergkloosterweg 621 8034PP Zwolle",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.488394, 6.142599]
+  },
+  "properties" : {
+    "name" : "ZW1 Zwolle IBX® Data Center",
+    "address" : "Telfordstraat 3 8013RL Zwolle",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.284928, 6.767381]
+  },
+  "properties" : {
+    "name" : "PCD1",
+    "address" : "Expolaan 50 7556BE Hengelo",
+    "owner" : "Previder",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.243834, 6.767264]
+  },
+  "properties" : {
+    "name" : "PCD2",
+    "address" : "Barnsteenstraat 15 7554TC Hengelo",
+    "owner" : "Previder",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.237001, 6.849658]
+  },
+  "properties" : {
+    "name" : "Datacenter Enschede",
+    "address" : "Auke Vleerstraat 1 7521PE Enschede",
+    "owner" : "Equinix",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.216301, 6.820988]
+  },
+  "properties" : {
+    "name" : "DataCentrum Twente",
+    "address" : "Marssteden 110 7547TD Enschede",
+    "owner" : "DataCentrum Twente",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.2203, 6.864338]
+  },
+  "properties" : {
+    "name" : "InterDC",
+    "address" : "Josinkstraat 30 7547AB Enschede",
+    "owner" : "InterDC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.002407, 5.050569]
+  },
+  "properties" : {
+    "name" : "Datacenter IJsselstein",
+    "address" : "Hogebiezendijk 21 3401RS IJsselstein",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.510823, 3.884479]
+  },
+  "properties" : {
+    "name" : "Datacenter Goes",
+    "address" : "Cornelisweg 10 4463AK Goes",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.491941, 3.885993]
+  },
+  "properties" : {
+    "name" : "ZeelandNet Zakelijk",
+    "address" : "Jenny Wijermanweg 24 4462GB Goes",
+    "owner" : "ZeelandNet",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.136933, 4.646499]
+  },
+  "properties" : {
+    "name" : "Datacenter Alphen aan den Rijn",
+    "address" : "Energieweg 4 2404HE Alphen aan den Rijn",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.131092, 4.640164]
+  },
+  "properties" : {
+    "name" : "Alldatacenter BV",
+    "address" : "Handelsweg 8 2404CD Alphen aan den Rijn",
+    "owner" : "Alldatacenter BV",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.080714, 4.335857]
+  },
+  "properties" : {
+    "name" : "Datacenter Den Haag",
+    "address" : "Louise Henriëttestraat 385 2595BK Den Haag",
+    "owner" : "Alticom",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.064513, 4.386809]
+  },
+  "properties" : {
+    "name" : "Data facilities Den Haag",
+    "address" : "Moezel 5 2491CV Den Haag",
+    "owner" : "Data Facilities B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.845913, 4.679147]
+  },
+  "properties" : {
+    "name" : "Dataplace Rotterdam",
+    "address" : "Van Coulsterweg 6 2952CB Alblasserdam",
+    "owner" : "Dataplace B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.858243, 4.664457]
+  },
+  "properties" : {
+    "name" : "Datapark Nederland",
+    "address" : "Edisonweg 10-220 2952AD Alblasserdam",
+    "owner" : "Datapark Nederland",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.122761, 5.143087]
+  },
+  "properties" : {
+    "name" : "Dataplace Utrecht",
+    "address" : "Koningin Wilhelminaweg 471 3737BE Groenekan",
+    "owner" : "Dataplace B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.715909, 5.29572]
+  },
+  "properties" : {
+    "name" : "Blue Star",
+    "address" : "Hambakenwetering 1 5321DD Den Bosch",
+    "owner" : "Blue Star",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.069108, 5.07867]
+  },
+  "properties" : {
+    "name" : "RAM Infotechnology",
+    "address" : "Ptolemaeuslaan 69 3538BR Utrecht",
+    "owner" : "RAM Infotechnology",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.988021, 5.932863]
+  },
+  "properties" : {
+    "name" : "Dataplace Arnhem",
+    "address" : "Tivolilaan 251 6824BV Arnhem",
+    "owner" : "Dataplace B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.698233, 5.183618]
+  },
+  "properties" : {
+    "name" : "Databalance Services B.V.",
+    "address" : "Hopbrouwer 18 5253RE Nieuwkuijk",
+    "owner" : "Databalance Services B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [50.962022, 5.820668]
+  },
+  "properties" : {
+    "name" : "Data Exchange Europe",
+    "address" : "Hofstraat 2A 6161AR Geleen",
+    "owner" : "Data Exchange Europe",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.69582, 5.038593]
+  },
+  "properties" : {
+    "name" : "Dataplace Brabant",
+    "address" : "Gragtmansstraat 1B Industrieterrein Haven 7 5145RA Waalwijk",
+    "owner" : "Dataplace B.V.",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.855601, 4.301611]
+  },
+  "properties" : {
+    "name" : "Data Facilities Spijkenisse",
+    "address" : "Boyleweg 2 3208KA Spijkernisse",
+    "owner" : "Data facilities",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.27444, 4.741823]
+  },
+  "properties" : {
+    "name" : "Interxion AMS8",
+    "address" : "Pudongweg 37 1437EM Rozenburg",
+    "owner" : "Interxion",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.289965, 4.678661]
+  },
+  "properties" : {
+    "name" : "De President Business Park",
+    "address" : "Jan Wijsmullerdreef 10 2132PW Hoofddorp",
+    "owner" : "Digital Realty",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.197477, 5.39314]
+  },
+  "properties" : {
+    "name" : "Datahouse Amersfoort",
+    "address" : "spaceshuttle 21 3824ML Amersfoort",
+    "owner" : "Datahouse Datacenters",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.59289, 4.803156]
+  },
+  "properties" : {
+    "name" : "Concepts ICT",
+    "address" : "St Ignatiusstraat 265 4817KK Breda",
+    "owner" : "Concepts ICT",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.594931, 4.823378]
+  },
+  "properties" : {
+    "name" : "@Xit",
+    "address" : "Takkebijsters 9b 4817BL Breda",
+    "owner" : "@Xit",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.614189, 4.758859]
+  },
+  "properties" : {
+    "name" : "Zelybron DC Breda",
+    "address" : "Schapendreef 4824AM Breda",
+    "owner" : "Zelybron DC",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.579078, 4.929288]
+  },
+  "properties" : {
+    "name" : "Global-e Datacenter BV",
+    "address" : "Haansbergseweg 12 5121LJ Rijen",
+    "owner" : "Global-e Datacenter BV",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.943255, 4.772343]
+  },
+  "properties" : {
+    "name" : "Dataport",
+    "address" : "Ravelijncenter 23 1785LX Den Helder",
+    "owner" : "Dataport",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.477539, 5.620858]
+  },
+  "properties" : {
+    "name" : "e-Quest Datacenter",
+    "address" : "Schootense Dreef 26 5708HZ Helmond",
+    "owner" : "e-Quest Datacenter",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.801263, 5.257389]
+  },
+  "properties" : {
+    "name" : "DC Zaltbommel (DCZA)",
+    "address" : "Hogeweg 3 5301LB Zalt Bommel",
+    "owner" : "DC Zaltbommel (DCZA)",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.824519, 5.825214]
+  },
+  "properties" : {
+    "name" : "Digital Residence",
+    "address" : "Jonkerbosplein 52 6534AB Nijmegen",
+    "owner" : "Digital Residence",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.238602, 6.195004]
+  },
+  "properties" : {
+    "name" : "ITB2 Datacenter Deventer",
+    "address" : "Herfordstraat 18 7418EX Deventer",
+    "owner" : "ITB2",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.238553, 6.203004]
+  },
+  "properties" : {
+    "name" : "Green Data Systems",
+    "address" : "Rigastraat 18 7418EW Deventer",
+    "owner" : "Green Data Systems",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.238553, 6.203004]
+  },
+  "properties" : {
+    "name" : "1TransVir",
+    "address" : "Rigastraat 18 7418EW Deventer",
+    "owner" : "1TransVir",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.954184, 6.300252]
+  },
+  "properties" : {
+    "name" : "DataCentrum Doetinchem",
+    "address" : "Gildenbroederslaan 1 7005BM Doetinchem",
+    "owner" : "NovoServe",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.543666, 5.705215]
+  },
+  "properties" : {
+    "name" : "Serverius SDC1",
+    "address" : "De Linge 26 8253PJ Dronten",
+    "owner" : "Serverius",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.539145, 5.702179]
+  },
+  "properties" : {
+    "name" : "Solcon, locatie Dronten",
+    "address" : "Het Spaarne 11 8253PE Dronten",
+    "owner" : "Solcon",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.030762, 5.624974]
+  },
+  "properties" : {
+    "name" : "BIT-1",
+    "address" : "Kelvinstraat 63-67 6716BV Ede",
+    "owner" : "BIT",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.027428, 5.624266]
+  },
+  "properties" : {
+    "name" : "BIT-2A",
+    "address" : "Galileïlaan 19 6716BP Ede",
+    "owner" : "BIT",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.027428, 5.624266]
+  },
+  "properties" : {
+    "name" : "BIT-2B",
+    "address" : "Galileïlaan 19 6716BP Ede",
+    "owner" : "BIT",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.027428, 5.624266]
+  },
+  "properties" : {
+    "name" : "BIT-2C",
+    "address" : "Galileïlaan 19 6716BP Ede",
+    "owner" : "BIT",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.027428, 5.624266]
+  },
+  "properties" : {
+    "name" : "BIT-2D",
+    "address" : "Galileïlaan 19 6716BP Ede",
+    "owner" : "BIT",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [51.501483, 3.910038]
+  },
+  "properties" : {
+    "name" : "CyberBunker",
+    "address" : "Zomerweg 4481CA Kloetinge",
+    "owner" : "CyberBunker",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.033223, 4.496307]
+  },
+  "properties" : {
+    "name" : "ColoCenter",
+    "address" : "Heliumstraat 200 2718RS Zoetermeer",
+    "owner" : "ColoCenter",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+},{
+  "type" : "Feature",
+  "geometry" : {
+    "type" : "Point",
+    "coordinates" : [52.764930, 5.039590]
+  },
+  "properties" : {
+    "name" : "Microsoft North Amsterdam Data Center Campus",
+    "address" : "Agriport 601 1775 TK Middenmeer",
+    "owner" : "Microsoft",
+    "emission" : "",
+    "energylabel" : "",
+    "electricity" : ""
+  }
+}]

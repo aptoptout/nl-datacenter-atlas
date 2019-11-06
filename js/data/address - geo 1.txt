@@ -1,0 +1,99 @@
+Keienbergweg 22 1011GB Amsterdam  52.309485 4.935572
+Cateringweg 5 1118AM Schiphol 52.322569 4.802151
+Lemelerbergweg 28 1101AH Amsterdam  52.303912 4.93948
+Lemelerbergweg 28 1101AH Amsterdam  52.303912 4.93948
+Gyroscoopweg 58 1042AC Amsterdam  52.399869 4.842347
+Gyroscoopweg 72 1042AC Amsterdam  52.399474 4.843834
+Gyroscoopweg 60 1042AC Amsterdam  52.399861 4.842597
+Paul Van Vlissingenstraat 16 1096BK Amsterdam 52.333408 4.919441
+Science Park 404 1098 Amsterdam 52.356626 4.958019
+Luttenbergweg 4 1101EC Amsterdam  52.299929 4.943121
+Luttenbergweg 4 1101EC Amsterdam  52.299929 4.943121
+Science Park 610 1098XH Amsterdam 52.354925 4.96096
+Science Park 610 1098XH Amsterdam 52.354925 4.96096
+Schepenbergweg 42 1105AT Amsterdam  52.293351 4.945054
+Duivendrechtsekade 80A 1096AH Amsterdam 52.337296 4.93365
+Kuiperbergweg 13 1101AE Amsterdam 52.303078 4.938009
+Gyroscoopweg 2E-F 1042AM Amsterdam  52.39676  4.838742
+Kabelweg 48a 1014BB Amsterdam 52.392897 4.849214
+Science Park 121 1098XH Amsterdam 52.356671 4.952501
+Paalbergweg 1-3 1105AG Amsterdam  52.300183 4.955048
+Barbara Strozzilaan 251 1083HN Amsterdam  52.336277 4.886678
+1059CA Amsterdam  52.34339  4.844303
+Joop Geesinkweg 401-404 1096AX Amsterdam  52.33476  4.93186
+Stekkenbergweg 4 1105AJ Amsterdam 52.29643  4.94859
+H.J.E. Wenckebachweg 127 1096AM Amsterdam 52.336524 4.931893
+Science Park 120 1098XG Amsterdam 52.357161 4.950882
+Gyroscoopweg 134-140 1042AZ 52.400496 4.842911
+Van der Madeweg 12-14a 1099BT Amsterdam 52.328278 4.926198
+Zekeringstraat 35 1014BV Amsterdam  52.396443 4.851132
+Heathrowstraat 10 1043CH Amsterdam  52.385756 4.832253
+Johan Huizingalaan 759 1066VH Amsterdam 52.343984 4.828712
+Westhavenweg 60B 1042AL Amsterdam 52.408398 4.828869
+Archangelkade 1/3 1013BE Amsterdam  52.395902 4.870918
+Zekeringstraat 43 1014BV Amsterdam  52.395778 4.849488
+Kruislaan 409 1098SL Amsterdam  52.35396  4.951214
+De Klencke 10-12 1083HL Amsterdam 52.333972 4.885484
+Kruislaan 415 1098SL Amsterdam  52.35396  4.951214
+Science Park 140 1098XG Amsterdam 52.356921 4.954253
+Joan Muyskenweg 24 1096CJ Amsterdam 52.332571 4.913962
+Kollenbergweg 13 1101AR Amsterdam 52.30491  4.935663
+Drentestraat 12 1083HK Amsterdam  52.207393 6.878966
+Kruislaan 411 1098SJ Amsterdam  52.35396  4.951214
+Gebouw Matrix III Science Park 402 1098XH Amsterdam 52.35672  4.956934
+Koolhovenlaan 120 1119NR Schiphol-Rijk  52.27956  4.755958
+Cessnalaan 1-33 1119NJ Schiphol-Rijk  52.28415  4.770855
+Tupolevlaan 101 1119PA Schiphol-Rijk  52.280312 4.753851
+1119PA Schiphol-Rijk  52.280356 4.753675
+Cessnalaan 50 1119NJ Schiphol-Rijk  52.281252 4.765043
+Capronilaan 2 1119NR Schiphol-Rijk  52.282192 4.772861
+Boeing Avenue 271 1119PD Schiphol-Rijk  52.274896 4.750866
+Haarlemmerstraatweg 135 1165MK Halfweg  52.384505 4.717155
+Lakenblekerstraat 13 1431GE Aalsmeer  52.259264 4.773709
+Professor van der Waalsstraat 1821BT Alkmaar  52.625046 4.76981
+Science Park Eindhoven 5218 5692EG Son  51.501266 5.460506
+Kerkstraat 26 8471CD Wolvega  52.876458 5.997082
+Het Rip 9 4493RL Kamperland 51.574114 3.700106
+Rondebeltweg 62 1329BG Almere 52.364353 5.268793
+Randstad 22 153 1316BM Almere 52.378152 5.229227
+Cypergrasweg 3C 1313AK Almere 52.38546  5.204234
+Striptekenaar 76 1336CM Almere  52.40744  5.321596
+Transistorstraat 7c 1322CJ Almere 52.346588 5.182618
+Fauststraat 1 7323BA Apeldoorn  52.232416 5.976736
+Schumanpark 29-31 7336AM Apeldoorn  52.194743 5.943514
+Grote Woudhuis 5 7325WM Apeldoorn 52.199554 6.026183
+Laan van de Ram 39 7324BW Apeldoorn 52.24703  6.001603
+High Tech Campus 53 5656AG Eindhoven  51.40762  5.45911
+Ambachtsweg 25-27 5627BZ Eindhoven  51.478509 5.440275
+Park Forum 1041 5657HJ Eindhoven  51.442134 5.387441
+A. Hofmanweg 1 2031BH Haarlem 52.388166 4.669602
+A. Hofmanweg 1 2031BH Haarlem 52.388166 4.669602
+J.W. Lucasweg 35 2031BE Haarlem 52.391185 4.665399
+Fokker Logistics Park Gebouw 59 Fokkerweg 300 1438AN Oude Meer  52.292431 4.788323
+Anthony Fokkerweg 40 3088GG Rotterdam 51.875343 4.449031
+Anthony Fokkerweg 40 3088GG Rotterdam 51.875343 4.449031
+Van Nelleweg 1 3044BC Rotterdam 51.92324  4.43342
+Schuttevaerweg 48 3044BB Rotterdam  51.930144 4.414046
+Rivium Boulevard 62 2909LK Rotterdam  51.910353 4.546727
+Westzeedijk 487 3024EL Rotterdam  51.904835 4.457454
+Weena Zuid 108 3012NC Rotterdam 51.922887 4.474568
+Schouwburgplein 30-34 3012CL Rotterdam  51.92025  4.474623
+Koperstraat 6 3067GL Rotterdam  51.949852 4.55103
+Rivium 1e Straat 1 2909LE Capelle aan den IJssel  51.912672 4.539411
+Venkelbaan 58 2908KE Capelle aan den IJssel 51.962906 4.584266
+Heertjeslaan 1 2629JG Delft 51.987067 4.377386
+1e Lambertusstraat 26 5921JS Venlo  51.369424 6.155852
+Marinus Dammeweg 19 5928PW Venlo  51.378376 6.158818
+Marinus Dammeweg 25 5928PW Venlo  51.378373 6.159216
+De Steenbok 1 5215MG ‘s-Hertogenbosch 51.686561 5.358767
+Industriestraat 24 2671CT Naaldwijk 52.001194 4.210829
+Steenwijk 52.786894 6.118069
+Drukkerij 6 4651SL Steenbergen  51.587535 4.305055
+De Bunders 1 9747AB Groningen 53.247481 6.524801
+Zernikelaan 16 9747AA Groningen 53.246048 6.52852
+Liverpoolweg 10 9744TW Groningen  53.207462 6.473715
+Winschoterdiep 50 9723AB Groningen  53.209328 6.585869
+Nettelbosje 1 9747AJ Groningen  53.238051 6.536007
+Nettelbosje 1 9747AJ Groningen  53.238051 6.536007
+Huibertgatweg 2 9979XZ Eemshaven  53.437458 6.858136
+Oostpolder 4 9979XT Eemshaven 53.4243 6.85871

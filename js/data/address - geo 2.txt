@@ -1,0 +1,90 @@
+Beneluxweg 4 9636HV Zuidbroek 53.165015 6.864552
+Aagtdorp  52.689822 4.7022
+Het rond 30 3995DJ Houten 52.034989 5.169098
+Brunelstraat 4 9404KD Assen 52.989181 6.579846
+Professor Verbernelaan 35 5037AD Tilburg  51.56316  5.049367
+Ambachtstraat 1c-d 3371XA Hardinxveld-Giessendam  51.823334 4.81607
+Minckelersstraat 2 6372PP Landgraaf 50.892065 6.027836
+Middelweg 43 5253E Nieuwkuijk 51.694424 5.183921
+Oostelijke Industrieweg 4B 8801JW Franeker  53.18219  5.558343
+Ketelskamp 10 7942KG Meppel 52.714714 6.201482
+Monierweg 9 7741KV Coevorden  52.656025 6.734056
+Europaweg 2 7742PN Coevorden  52.658351 6.754949
+Breinder 24 6365CX Schinnen Schinnen  50.938069 5.875016
+Kloosterweg 1 6412CN Heerlen  50.892319 5.971308
+Witte Kruislaan 47-A 1217AM Hilversum 52.242621 5.164383
+Koos Postemalaan 2 1217ZC Hilversum 52.241273 5.169137
+Eenhoornweg 1 1531ME Wormer 52.497903 4.796128
+Polanerbaan 1-3 3447GN Woerden  52.082813 4.891153
+Plesmanstraat 51 3905KZ Veenendaal  52.040541 5.556611
+Van Veenstraat 26 9423VB Hoogersmilde 52.902797 6.403538
+3433PC Nieuwegein 52.018592 5.104102
+Oostvaardersdijk 1-3 8244PA Lelystad  52.522194 5.437404
+FrancoisHaverSchmidtwei 3 8914BC Leeuwarden 53.20489  5.765277
+DataCenter Fryslan 2 8912AK Leeuwarden  53.20489  5.765277
+Gaestdyk 3 8522MV Tjerkgaast  52.909108 5.698838
+Bergerweg 120 6135KD Sittard  50.995908 5.845431
+Amerikalaan 35 6199AE Maastricht-Airport  50.928065 5.781152
+Otterloseweg 110 7339GZ Ugchelen  52.16569  5.899454
+Eyserbosweg 27 6287NE Eys 50.832007 5.926008
+Branskamp 16 6014CB Ittervoort  51.177003 5.835225
+Trichterbaan 170 6215XZ Maastricht  50.840286 5.659369
+Populierweg 150 6222CT Maastricht 50.864064 5.709744
+Op de Meuleberg 7 6041NK Roermond 51.183717 5.976115
+Postbus 1005 6040KA Roermond  51.19132  5.987772
+Westhoven 6 6042NV Roermond 51.193267 6.01987
+Hemelsbleekweg 15 5425PB De Mortel  51.526324 5.704135
+Bruchterweg 88 7772BJ Hardenberg  52.567534 6.622166
+Finantiën 5 5175NW Loon op Zand 51.607268 5.075431
+Ravensteinsedijk 2-A 5368LB Megen 51.809323 5.594093
+Torenweg 1 5731CJ Mierlo  51.437986 5.604801
+Melis Stokelaan 25 4707HP Roosendaal  51.523057 4.461151
+Larenseweg 58 7475PX Markelo  52.2369 6.441662
+Bergkloosterweg 621 8034PP Zwolle 52.533618 6.139619
+Telfordstraat 3 8013RL Zwolle 52.488394 6.142599
+Expolaan 50 7556BE Hengelo  52.284928 6.767381
+Barnsteenstraat 15 7554TC Hengelo 52.243834 6.767264
+Auke Vleerstraat 1 7521PE Enschede  52.237001 6.849658
+Marssteden 110 7547TD Enschede  52.216301 6.820988
+Josinkstraat 30 7547AB Enschede 52.2203 6.864338
+Hogebiezendijk 21 3401RS IJsselstein  52.002407 5.050569
+Cornelisweg 10 4463AK Goes  51.510823 3.884479
+Jenny Wijermanweg 24 4462GB Goes  51.491941 3.885993
+Energieweg 4 2404HE Alphen aan den Rijn 52.136933 4.646499
+Handelsweg 8 2404CD Alphen aan den Rijn 52.131092 4.640164
+Louise Henriëttestraat 385 2595BK Den Haag  52.080714 4.335857
+Moezel 5 2491CV Den Haag  52.064513 4.386809
+Van Coulsterweg 6 2952CB Alblasserdam 51.845913 4.679147
+Edisonweg 10-220 2952AD Alblasserdam  51.858243 4.664457
+Koningin Wilhelminaweg 471 3737BE Groenekan 52.122761 5.143087
+Hambakenwetering 1 5321DD Den Bosch 51.715909 5.29572
+Ptolemaeuslaan 69 3538BR Utrecht  52.069108 5.07867
+Tivolilaan 251 6824BV Arnhem  51.988021 5.932863
+Hopbrouwer 18 5253RE Nieuwkuijk 51.698233 5.183618
+Hofstraat 2A 6161AR Geleen  50.962022 5.820668
+Gragtmansstraat 1B Industrieterrein Haven 7 5145RA Waalwijk 51.69582  5.038593
+Boyleweg 2 3208KA Spijkernisse  51.855601 4.301611
+Pudongweg 37 1437EM Rozenburg 52.27444  4.741823
+Jan Wijsmullerdreef 10 2132PW Hoofddorp 52.289965 4.678661
+spaceshuttle 21 3824ML Amersfoort 52.197477 5.39314
+St Ignatiusstraat 265 4817KK Breda  51.59289  4.803156
+Takkebijsters 9b 4817BL Breda 51.594931 4.823378
+Schapendreef 4824AM Breda 51.614189 4.758859
+Haansbergseweg 12 5121LJ Rijen  51.579078 4.929288
+Ravelijncenter 23 1785LX Den Helder 52.943255 4.772343
+Schootense Dreef 26 5708HZ Helmond  51.477539 5.620858
+Hogeweg 3 5301LB Zalt Bommel  51.801263 5.257389
+Jonkerbosplein 52 6534AB Nijmegen 51.824519 5.825214
+Herfordstraat 18 7418EX Deventer  52.238602 6.195004
+Rigastraat 18 7418EW Deventer 52.238553 6.203004
+Rigastraat 18 7418EW Deventer 52.238553 6.203004
+Gildenbroederslaan 1 7005BM Doetinchem  51.954184 6.300252
+De Linge 26 8253PJ Dronten  52.543666 5.705215
+Het Spaarne 11 8253PE Dronten 52.539145 5.702179
+Kelvinstraat 63-67 6716BV Ede 52.030762 5.624974
+Galileïlaan 19 6716BP Ede 52.027428 5.624266
+Galileïlaan 19 6716BP Ede 52.027428 5.624266
+Galileïlaan 19 6716BP Ede 52.027428 5.624266
+Galileïlaan 19 6716BP Ede 52.027428 5.624266
+Zomerweg 4481CA Kloetinge 51.501483 3.910038
+Heliumstraat 200 2718RS Zoetermeer  52.033223 4.496307

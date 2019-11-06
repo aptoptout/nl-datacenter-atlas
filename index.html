@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Datacenter Atlas</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoiYXB0LW9wdC1vdXQiLCJhIjoiY2syYmU2a282MWNkdTNtb2JjeHhrdG91dSJ9.bIWJSVgBP7qMeB-IlkqrZw';
+    var geocoder = L.mapbox.geocoder('mapbox.places');
+
+    var map = L.mapbox.map('map')
+        .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
+    L.mapbox.featureLayer('js/data/datacenters.geojson').addTo(map);
+    geocoder.query('Netherlands', showMap);
+
+    function showMap(err, data) {
+        // The geocoder can return an area, like a city, or a
+        // point, like an address. Here we handle both cases,
+        // by fitting the map bounds to an area or zooming to a point.
+        if (data.lbounds) {
+            map.fitBounds(data.lbounds);
+        } else if (data.latlng) {
+            map.setView([data.latlng[0], data.latlng[1]], 13);
+        }
+    };
+
+</script>
+</body>
+</html>
