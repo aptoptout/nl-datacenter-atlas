@@ -19,13 +19,10 @@
 
     var map = L.mapbox.map('map')
         .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
-    L.mapbox.featureLayer('js/data/datacenters.geojson').addTo(map);
+    L.mapbox.featureLayer('data/datacenters.geojson').addTo(map);
     geocoder.query('Netherlands', showMap);
 
     function showMap(err, data) {
-        // The geocoder can return an area, like a city, or a
-        // point, like an address. Here we handle both cases,
-        // by fitting the map bounds to an area or zooming to a point.
         if (data.lbounds) {
             map.fitBounds(data.lbounds);
         } else if (data.latlng) {
