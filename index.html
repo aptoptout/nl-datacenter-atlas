@@ -13,12 +13,14 @@
 </head>
 <body>
 <div id='map'></div>
+<script src="secret_keys.js"></script>
 <script>
     L.mapbox.accessToken = 'pk.eyJ1IjoiYXB0LW9wdC1vdXQiLCJhIjoiY2syYmU2a282MWNkdTNtb2JjeHhrdG91dSJ9.bIWJSVgBP7qMeB-IlkqrZw';
     var geocoder = L.mapbox.geocoder('mapbox.places');
 
     var map = L.mapbox.map('map')
-        .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
+        .addLayer(L.mapbox.styleLayer('mapbox://styles/apt-opt-out/ck2be75ki0nw31cmhmgy812xh'));
+
     L.mapbox.featureLayer('data/datacenters.geojson').addTo(map);
     geocoder.query('Netherlands', showMap);
 
