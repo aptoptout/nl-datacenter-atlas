@@ -31,7 +31,7 @@
 </head>
 <body>
 <div id='map'></div>
-<!--<script src="data/datacenters.js"></script>-->
+<script src="data/datacenters.js"></script>
 <script>
     L.mapbox.accessToken = 'pk.eyJ1IjoiYXB0LW9wdC1vdXQiLCJhIjoiY2syYmU2a282MWNkdTNtb2JjeHhrdG91dSJ9.bIWJSVgBP7qMeB-IlkqrZw';
     var geocoder = L.mapbox.geocoder('mapbox.places');
@@ -56,6 +56,14 @@
     });
 
     geocoder.query('Netherlands', showMap);
+
+    function showMap(err, data) {
+        if (data.lbounds) {
+            map.fitBounds(data.lbounds);
+        } else if (data.latlng) {
+            map.setView([data.latlng[0], data.latlng[1]], 13);
+        }
+    };
 
 </script>
 </body>
