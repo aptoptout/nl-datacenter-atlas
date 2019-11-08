@@ -7,13 +7,31 @@
     <script src='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.css' rel='stylesheet' />
     <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+        body {
+            margin:0;
+            padding:0;
+        }
+
+        #map {
+            position:absolute;
+            top:0;
+            bottom:0;
+            width:100%;
+        }
+
+        .marker {
+            background-image: url('mapbox-icon.png');
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
 <div id='map'></div>
-<!--<script src="secret_keys.js"></script>-->
+<script src="data/datacenters.js"></script>
 <script>
     L.mapbox.accessToken = 'pk.eyJ1IjoiYXB0LW9wdC1vdXQiLCJhIjoiY2syYmU2a282MWNkdTNtb2JjeHhrdG91dSJ9.bIWJSVgBP7qMeB-IlkqrZw';
     var geocoder = L.mapbox.geocoder('mapbox.places');
@@ -21,7 +39,18 @@
     var map = L.mapbox.map('map')
         .addLayer(L.mapbox.styleLayer('mapbox://styles/apt-opt-out/ck2be75ki0nw31cmhmgy812xh'));
 
-    L.mapbox.featureLayer('data/datacenters.geojson').addTo(map);
+    // L.mapbox.featureLayer('data/datacenters.geojson').addTo(map);
+    geojson.features.forEach(function(marker) {
+        // create a HTML element for each feature
+        var el = document.createElement('div');
+        el.className = 'marker';
+        // make a marker for each feature and add to the map
+        new mapboxgl.Marker(el)
+            .setLngLat(marker.geometry.coordinates)
+            .addTo(map);
+    });
+
+
     geocoder.query('Netherlands', showMap);
 
     function showMap(err, data) {
