@@ -3,6 +3,7 @@
 node_modules
 _archive
 secret_keys.js
+dist
 
 # logs
 npm-debug.log

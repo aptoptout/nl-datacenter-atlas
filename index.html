@@ -4,12 +4,15 @@
     <meta charset=utf-8 />
     <title>Datacenter Atlas</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/v3.2.1/mapbox.css' rel='stylesheet' />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/canvas-toblob/0.1/canvas-toBlob.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/filesaver.js@1.3.4/FileSaver.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body {
             margin:0;
             padding:0;
+            background-color: aqua;
         }
 
         #map {
@@ -18,49 +21,334 @@
             bottom:0;
             width:100%;
         }
+        .download {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 9999;
+        }
 
-        .label {
-            background-color: blue;
-            border-radius: 50%;
+        .download:hover {
             cursor: pointer;
+            color: blue;
+        }
+
+        .getcenter {
+            position: fixed;
+            top: 60px;
+            left: 20px;
+            z-index: 9999;
+        }
+
+        .getcenter:hover {
+            cursor: pointer;
+            color: blue;
+        }
+
+        .centers {
+            position: fixed;
+            top: 100px;
+            z-index: 9999;
         }
     </style>
 </head>
 <body>
+<button class="download" onclick="downloadCurrentView()">Save current view</button>
+<button class="getcenter" onclick="getCurrentCenterLatLong()">Get current centroid LatLong</button>
+<div class="centers">
+<!--    <button class="setcenter" onclick="setNewCenter(0)">Center 1</button>-->
+<!--    <button class="setcenter" onclick="setNewCenter(1)">Center 2</button>-->
+<!--    <button class="setcenter" onclick="setNewCenter(2)">Center 3</button>-->
+<!--    <button class="setcenter" onclick="setNewCenter(3)">Center 4</button>-->
+<!--    <button class="setcenter" onclick="setNewCenter(4)">Center 5</button>-->
+<!--    <button class="setcenter" onclick="setNewCenter(5)">Center 6</button>-->
+</div>
 <div id='map'></div>
 <script src="data/datacenters.js"></script>
+<script src="data/landingpoints.js"></script>
 <script>
-    L.mapbox.accessToken = 'pk.eyJ1IjoiYXB0LW9wdC1vdXQiLCJhIjoiY2syYmU2a282MWNkdTNtb2JjeHhrdG91dSJ9.bIWJSVgBP7qMeB-IlkqrZw';
-    var geocoder = L.mapbox.geocoder('mapbox.places');
+    const config = {
+        container: document.querySelector("#map"),
+        access_token: 'pk.eyJ1IjoiYXB0LW9wdC1vdXQiLCJhIjoiY2syYmU2a282MWNkdTNtb2JjeHhrdG91dSJ9.bIWJSVgBP7qMeB-IlkqrZw',
+        style: 'mapbox://styles/apt-opt-out/ck2x6woe41lay1cq3n70uau16',
+        mode: 'production',
+        dev: {
+            width: 1280,
+            height: 800
+        },
+        production: {
+            width: 3840,
+            height: 2560
+        },
+        colors: {
+            primary: [255, 0, 127],
+            secondary: [0, 0, 255]
+        },
+        centers: [{
+            lat: 51.34599527489911,
+            lng: 3.7252670139396287
+        },{
+            lat: 51.756519388721586,
+            lng: 3.7256103367803917
+        },{
+            lat: 52.257383078231214,
+            lng: 3.740373215241334
+        },{
+            lat: 52.32782514997294,
+            lng: 4.85040287204788
+        },{
+            lat: 52.75753277885718,
+            lng: 4.8586426181911975
+        },{
+            lat: 53.18941576844276,
+            lng: 4.871002237352741
+        },{
+            lat: 53.627624398170894,
+            lng: 4.901901285250688
+        },{
+            lat: 52.098221485501256,
+            lng: 4.902028818243934
+        },{
+            lat: 51.59761226215838,
+            lng: 4.848945181778731
+        },{
+            lat: 51.26047604478177,
+            lng: 4.837958853676582
+        },{
+            lat: 50.93875650899426,
+            lng: 6.009217075502306
+        },{
+            lat: 51.44096764711702,
+            lng: 6.032563022813179
+        },{
+            lat: 51.94089135581527,
+            lng: 6.028786472556476
+        },{
+            lat: 52.44660650318437,
+            lng: 6.017800144469561
+        },{
+            lat: 52.9565383015601,
+            lng: 6.038742832479784
+        },{
+            lat: 53.456411169570146,
+            lng: 6.019860081042907
+        },{
+            lat: 53.45198278307876,
+            lng: 6.926990099881436
+        },{
+            lat: 52.998277901061556,
+            lng: 6.940307645017356
+        },{
+            lat: 52.54127368052275,
+            lng: 6.937904385758316
+        },{
+            lat: 52.03838105093706,
+            lng: 6.926555259616521
+        }]
+    };
 
-    var map = L.mapbox.map('map')
-        .addLayer(L.mapbox.styleLayer('mapbox://styles/apt-opt-out/ck2be75ki0nw31cmhmgy812xh'));
+    config.container.style.width = config[config.mode].width + 'px';
+    config.container.style.height = config[config.mode].height + 'px';
 
-    var gj = L.geoJson(null, {
-        pointToLayer: function(feature, ll) {
-            return L.marker(ll, {
-                icon: L.divIcon({
-                    className: 'label',
-                    html: "!",
-                    iconSize: [20, 20]
-                })
-            });
-        }
-    }).addTo(map);
+    mapboxgl.accessToken = config.access_token;
 
-    L.mapbox.featureLayer('data/datacenters.geojson').on('ready', function(e) {
-        gj.addData(this.getGeoJSON());
+    const map = new mapboxgl.Map({
+        container: config.container,
+        style: config.style,
+        zoom: 11,
+        center: [5.291266, 52.132633],
+        preserveDrawingBuffer: true
     });
 
-    geocoder.query('Netherlands', showMap);
+    map.on('load', function() {
 
-    function showMap(err, data) {
-        if (data.lbounds) {
-            map.fitBounds(data.lbounds);
-        } else if (data.latlng) {
-            map.setView([data.latlng[0], data.latlng[1]], 13);
-        }
+        map.loadImage('data/cross.png', function(error, image) {
+            if (error) throw error;
+            map.addImage('cross', image);
+        });
+
+        map.addLayer({
+            'id': 'landingpoints',
+            'type': 'symbol',
+            'source': {
+                'type': 'geojson',
+                'data': geojson_landingpoints
+            },
+            'layout': {
+                "icon-image": 'cross',
+                'icon-size': 0.2,
+            }
+        });
+
+        map.addLayer({
+            'id': 'other-datacenters-40',
+            'type': 'circle',
+            'source': {
+                'type': 'geojson',
+                'data': geojson_datacenters
+            },
+            'filter': ["==", "photo_taken", false],
+            'paint': {
+                "circle-color": [
+                    "rgb",
+                    config.colors.primary[0],
+                    config.colors.primary[1],
+                    config.colors.primary[2]
+                ],
+                'circle-radius': 25,
+                'circle-opacity': 0,
+                'circle-stroke-width': 3,
+                'circle-stroke-color': [
+                    "rgb",
+                    config.colors.primary[0],
+                    config.colors.primary[1],
+                    config.colors.primary[2]
+                ],
+                'circle-stroke-opacity': 1
+
+            }
+        });
+
+        map.addLayer({
+            'id': 'other-datacenters-100',
+            'type': 'circle',
+            'source': {
+                'type': 'geojson',
+                'data': geojson_datacenters
+            },
+            'filter': ["==", "photo_taken", false],
+            'paint': {
+                "circle-color": [
+                    "rgb",
+                    config.colors.primary[0],
+                    config.colors.primary[1],
+                    config.colors.primary[2]
+                ],
+                'circle-radius': 15,
+                'circle-opacity': 1
+
+            }
+        });
+
+        map.addLayer({
+            'id': 'photographed-datacenters-40',
+            'type': 'circle',
+            'source': {
+                'type': 'geojson',
+                'data': geojson_datacenters
+            },
+            'filter': ["==", "photo_taken", true],
+            'paint': {
+                "circle-color": [
+                    "rgb",
+                    config.colors.primary[0],
+                    config.colors.primary[1],
+                    config.colors.primary[2]
+                ],
+                'circle-radius': 80,
+                'circle-opacity': 0,
+                'circle-stroke-width': 3,
+                'circle-stroke-color': [
+                    "rgb",
+                    config.colors.primary[0],
+                    config.colors.primary[1],
+                    config.colors.primary[2]
+                ],
+                'circle-stroke-opacity': 1
+            }
+        });
+
+        map.addLayer({
+            'id': 'photographed-datacenters-100',
+            'type': 'circle',
+            'source': {
+                'type': 'geojson',
+                'data': geojson_datacenters
+            },
+            'filter': ["==", "photo_taken", true],
+            'paint': {
+                "circle-color": [
+                    "rgb",
+                    config.colors.primary[0],
+                    config.colors.primary[1],
+                    config.colors.primary[2]
+                ],
+                'circle-radius': 40,
+                'circle-opacity': 1
+            }
+        });
+
+        // map.addLayer({
+        //     'id': 'photographed-datacenters-labels',
+        //     'type': 'symbol',
+        //     'source': {
+        //         'type': 'geojson',
+        //         'data': geojson_datacenters
+        //     },
+        //     'filter': ["==", "photo_taken", true],
+        //     "layout": {
+        //         'symbol-placement': 'point',
+        //         'text-offset': [0, 4],
+        //         'text-allow-overlap': true,
+        //         "text-field": "{owner}",
+        //         "text-font": [
+        //             "Arial Unicode MS Bold"
+        //         ],
+        //         "text-size": 12
+        //     }
+        // });
+
+        map.on("click", "other-datacenters-40", function (e) {
+            const inside = e.features[0].properties.name + '<br><br>' +
+                e.features[0].properties.owner + '<br>' +
+                e.features[0].properties.address + '<br><br>' +
+                e.features[0].properties.source;
+
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(inside)
+                .addTo(map);
+        });
+
+        map.on("click", "photographed-datacenters-40", function (e) {
+            const inside = e.features[0].properties.name + '<br><br>' +
+                e.features[0].properties.owner + '<br>' +
+                e.features[0].properties.address + '<br><br>' +
+                e.features[0].properties.source;
+
+            new mapboxgl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(inside)
+                .addTo(map);
+        });
+    });
+
+    map.scrollZoom.disable();
+
+    const downloadCurrentView = function(num) {
+        map.getCanvas().toBlob(function(blob) {
+            saveAs(blob, 'kabk_rg_dc atlas_map-' + num + '.png');
+        });
     };
+
+    const getCurrentCenterLatLong = function() {
+        console.log(map.getCenter());
+    };
+
+    const setNewCenter = function(num) {
+        map.setCenter([config.centers[num].lng, config.centers[num].lat]);
+
+        const downloadEl = document.querySelector(".download");
+        downloadEl.setAttribute('onclick', `downloadCurrentView(${num})`);
+    };
+
+    config.centers.forEach(function(center, i) {
+        const centersButtonContainer = document.querySelector(".centers");
+        const buttonEl = document.createElement('button');
+        buttonEl.setAttribute('onclick', `setNewCenter(${i})`)
+        buttonEl.innerHTML = 'Center ' + (i);
+        centersButtonContainer.append(buttonEl);
+    });
 
 </script>
 </body>
