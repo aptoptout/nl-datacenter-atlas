@@ -29,7 +29,7 @@ const geojson_datacenters = {
             "address" : {
                 "street" : "Cateringweg 5",
                 "zipcode" : "1118 AM",
-                "city" : "Schiphol"
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["Digital Realty", "Terremark"],
             "amsix" : false,
@@ -81,7 +81,7 @@ const geojson_datacenters = {
         "properties" : {
             "name" : ["Interxion AMS2"],
             "address" : {
-                "street" : "Gyroscoopweg 72",
+                "street" : "Gyroscoopweg 59",
                 "zipcode" : "1042 AC",
                 "city" : "Amsterdam"
             },
@@ -115,7 +115,7 @@ const geojson_datacenters = {
             "coordinates" : [4.919470, 52.332870]
         },
         "properties" : {
-            "name" : ["euNetworks B.V.", "Digital Realty Data Center"],
+            "name" : ["euNetworks B.V.", "Digital Realty Paul van Vlissingenstraat"],
             "address" : {
                 "street" : "Paul Van Vlissingenstraat 16",
                 "zipcode" : "1096 BK",
@@ -295,13 +295,13 @@ const geojson_datacenters = {
             "coordinates" : [4.849240, 52.393390]
         },
         "properties" : {
-            "name" : ["The Datacenter Group"],
+            "name" : ["NLDC Amsterdam", "The Datacenter Group"],
             "address" : {
                 "street" : "Kabelweg 48",
                 "zipcode" : "1014 BB",
                 "city" : "Amsterdam"
             },
-            "owner" : ["The Datacenter Group"],
+            "owner" : ["NLDC", "The Datacenter Group"],
             "amsix" : true,
             "photo_taken" : true,
             "source" : "datacentermap.com"
@@ -310,7 +310,25 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.952730, 52.356110]
+            "coordinates" : [4.447870, 51.953240]
+        },
+        "properties" : {
+            "name" : ["NLDC", "The Datacenter Group"],
+            "address" : {
+                "street" : "Tempelhof 5-11",
+                "zipcode" : "3045 PV",
+                "city" : "Rotterdam"
+            },
+            "owner" : ["NLDC", "The Datacenter Group"],
+            "amsix" : false,
+            "photo_taken" : true,
+            "source" : "own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.950350, 52.355980]
         },
         "properties" : {
             "name" : ["Interxion AMS9", "Vancis B.V."],
@@ -367,13 +385,13 @@ const geojson_datacenters = {
             "coordinates" : [4.802151, 52.322569]
         },
         "properties" : {
-            "name" : ["Level 3 Amsterdam"],
+            "name" : ["Level 3 Amsterdam 1"],
             "address" : {
                 "street" : "Joop Geesinkweg 401-404",
                 "zipcode" : "1096 AX",
                 "city" : "Amsterdam"
             },
-            "owner" : ["Level 3"],
+            "owner" : ["Level 3", "CenturyLink"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -385,13 +403,13 @@ const geojson_datacenters = {
             "coordinates" : [4.919441, 52.333408]
         },
         "properties" : {
-            "name" : ["Level 3 Amsterdam"],
+            "name" : ["Level 3 Amsterdam 2"],
             "address" : {
                 "street" : "Stekkenbergweg 4",
                 "zipcode" : "1105 AJ",
                 "city" : "Amsterdam"
             },
-            "owner" : ["Level 3"],
+            "owner" : ["Level 3", "CenturyLink"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -424,7 +442,7 @@ const geojson_datacenters = {
             "name" : ["Amsterdam Data Tower", "Digital Realty AMS01"],
             "address" : {
                 "street" : "Science Park 120",
-                "zipcode" : "1098 XG",
+                "zipcode" : "1098 SJ",
                 "city" : "Amsterdam"
             },
             "owner" : ["Digital Realty"],
@@ -454,14 +472,50 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.788323, 52.292431]
+            "coordinates" : [4.926450, 52.328030]
         },
         "properties" : {
-            "name" : ["Colt"],
+            "name" : ["Colt Data Centre Amsterdam Duivendrecht"],
             "address" : {
-                "street" : "Van der Madeweg 12-14a",
+                "street" : "Van der Madeweg 12",
                 "zipcode" : "1099 BT",
                 "city" : "Amsterdam"
+            },
+            "owner" : ["Colt Technology Services"],
+            "amsix" : false,
+            "photo_taken" : false,
+            "source" : "datacentermap.com"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.844520, 52.343230]
+        },
+        "properties" : {
+            "name" : ["Colt Data Centre Amsterdam Oud Zuid"],
+            "address" : {
+                "street" : "Luchtvaartstraat 1C",
+                "zipcode" : "1059 CA",
+                "city" : "Amsterdam"
+            },
+            "owner" : ["Colt Technology Services"],
+            "amsix" : false,
+            "photo_taken" : false,
+            "source" : "datacentermap.com"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.507700, 51.539450]
+        },
+        "properties" : {
+            "name" : ["Colt Data Centre Roosendaal"],
+            "address" : {
+                "street" : "Argonweg 9",
+                "zipcode" : "4706 NR",
+                "city" : "Roosendaal"
             },
             "owner" : ["Colt Technology Services"],
             "amsix" : false,
@@ -475,7 +529,7 @@ const geojson_datacenters = {
             "coordinates" : [4.96096, 52.354925]
         },
         "properties" : {
-            "name" : ["Databarn Amsterdam B.V."],
+            "name" : ["Databarn Amsterdam"],
             "address" : {
                 "street" : "Zekeringstraat 35",
                 "zipcode" : "1014 BV",
@@ -565,7 +619,7 @@ const geojson_datacenters = {
             "coordinates" : [4.951131, 52.356672]
         },
         "properties" : {
-            "name" : ["Nikhef"],
+            "name" : ["Nikhef Housing"],
             "address" : {
                 "street" : "Science Park 105",
                 "zipcode" : "1098 XG",
@@ -619,7 +673,7 @@ const geojson_datacenters = {
             "coordinates" : [4.828869, 52.408398]
         },
         "properties" : {
-            "name" : ["Vancis"],
+            "name" : ["Vancis 1"],
             "address" : {
                 "street" : "Science Park 140",
                 "zipcode" : "1098 XG",
@@ -709,7 +763,7 @@ const geojson_datacenters = {
             "coordinates" : [4.956934, 52.35672]
         },
         "properties" : {
-            "name" : ["Vancis Amsterdam"],
+            "name" : ["Vancis 2"],
             "address" : {
                 "street" : "Gebouw Matrix III Science Park 402",
                 "zipcode" : "1098 XH",
@@ -724,16 +778,16 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.842911, 52.400496]
+            "coordinates" : [4.756080, 52.279400]
         },
         "properties" : {
-            "name" : ["Interoute Amsterdam"],
+            "name" : ["EdgeConneX Amsterdam", "Interoute Amsterdam"],
             "address" : {
-                "street" : "Koolhovenlaan 120 1119NR",
-                "zipcode" : "Schiphol",
-                "city" : "Rijk"
+                "street" : "Koolhovenlaan 120",
+                "zipcode" : "1119 NR",
+                "city" : "Schiphol-Rijk"
             },
-            "owner" : ["Interoute Communications Ltd"],
+            "owner" : ["EdgeConneX", "Interoute Communications Ltd"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -742,14 +796,14 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.755958, 52.27956]
+            "coordinates" : [4.769620, 52.284680]
         },
         "properties" : {
             "name" : ["Interxion AMS3"],
             "address" : {
-                "street" : "Cessnalaan 1-33 1119NJ",
-                "zipcode" : "Schiphol",
-                "city" : "Rijk"
+                "street" : "Cessnalaan 1-33",
+                "zipcode" : "1119 NJ",
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["Interxion"],
             "amsix" : false,
@@ -760,14 +814,14 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [6.118069, 52.786894]
+            "coordinates" : [4.754280, 52.280070]
         },
         "properties" : {
             "name" : ["Interxion AMS5"],
             "address" : {
-                "street" : "Tupolevlaan 101 1119PA",
-                "zipcode" : "Schiphol",
-                "city" : "Rijk"
+                "street" : "Tupolevlaan 101",
+                "zipcode" : "1119 PA",
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["Interxion"],
             "amsix" : true,
@@ -778,14 +832,14 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.770855, 52.28415]
+            "coordinates" : [4.765980, 52.285320]
         },
         "properties" : {
             "name" : ["Interxion AMS6"],
             "address" : {
-                "street" : "1119PA",
-                "zipcode" : "Schiphol",
-                "city" : "Rijk"
+                "street" : "Koolhovenlaan 25",
+                "zipcode" : "1119 NB",
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["Interxion"],
             "amsix" : false,
@@ -796,14 +850,14 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.753851, 52.280312]
+            "coordinates" : [4.765700, 52.281420]
         },
         "properties" : {
             "name" : ["Interxion AMS7"],
             "address" : {
-                "street" : "Cessnalaan 50 1119NJ",
-                "zipcode" : "Schiphol",
-                "city" : "Rijk"
+                "street" : "Cessnalaan 50 ",
+                "zipcode" : "1119 NJ",
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["Interxion"],
             "amsix" : false,
@@ -817,11 +871,11 @@ const geojson_datacenters = {
             "coordinates" : [4.753675, 52.280356]
         },
         "properties" : {
-            "name" : ["Maincubes AMS01 Schiphol"],
+            "name" : ["Maincubes AMS01"],
             "address" : {
-                "street" : "Capronilaan 2 1119NR",
-                "zipcode" : "Schiphol",
-                "city" : "Rijk"
+                "street" : "Capronilaan 2",
+                "zipcode" : "1119 NR",
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["Maincubes B.V."],
             "amsix" : false,
@@ -832,14 +886,14 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.765043, 52.281252]
+            "coordinates" : [4.749850, 52.275250]
         },
         "properties" : {
             "name" : ["atom86"],
             "address" : {
-                "street" : "Boeing Avenue 271 1119PD",
-                "zipcode" : "Schiphol",
-                "city" : "Rijk"
+                "street" : "Boeing Avenue 271",
+                "zipcode" : "1119 PD",
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["atom86"],
             "amsix" : false,
@@ -889,13 +943,13 @@ const geojson_datacenters = {
             "coordinates" : [4.717155, 52.384505]
         },
         "properties" : {
-            "name" : ["Datahouse Datacenters"],
+            "name" : ["Datacenter Noord-Holland", "Datahouse Datacenters"],
             "address" : {
-                "street" : "Professor van der Waalsstraat",
+                "street" : "Professor van der Waalsstraat 1",
                 "zipcode" : "1821 BT",
                 "city" : "Alkmaar"
             },
-            "owner" : ["Datahouse Datacenters"],
+            "owner" : ["Datacenter Noord-Holland", "Datahouse Datacenters"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -1105,13 +1159,13 @@ const geojson_datacenters = {
             "coordinates" : [5.943514, 52.194743]
         },
         "properties" : {
-            "name" : ["Solcon Apeldoorn"],
+            "name" : ["Serverius SDC3", "Solcon Apeldoorn"],
             "address" : {
                 "street" : "Laan van de Ram 39",
                 "zipcode" : "7324 BW",
                 "city" : "Apeldoorn"
             },
-            "owner" : ["Solcon"],
+            "owner" : ["Serverius", "Solcon"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -1123,13 +1177,13 @@ const geojson_datacenters = {
             "coordinates" : [6.026183, 52.199554]
         },
         "properties" : {
-            "name" : ["KPN Datacenter Eindhoven"],
+            "name" : ["NLDC Datacenter Eindhoven", "KPN Datacenter Eindhoven"],
             "address" : {
                 "street" : "High Tech Campus 53",
                 "zipcode" : "5656 AG",
                 "city" : "Eindhoven"
             },
-            "owner" : ["Koninklijke KPN N.V"],
+            "owner" : ["NLDC", "Koninklijke KPN N.V"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -1156,24 +1210,6 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [5.45911, 51.40762]
-        },
-        "properties" : {
-            "name" : ["Interconnect Eindhoven"],
-            "address" : {
-                "street" : "Park Forum 1041",
-                "zipcode" : "5657 HJ",
-                "city" : "Eindhoven"
-            },
-            "owner" : ["Interconnect"],
-            "amsix" : false,
-            "photo_taken" : false,
-            "source" : "datacentermap.com"
-        }
-    },{
-        "type" : "Feature",
-        "geometry" : {
-            "type" : "Point",
             "coordinates" : [4.669900, 52.387970]
         },
         "properties" : {
@@ -1185,7 +1221,7 @@ const geojson_datacenters = {
             },
             "owner" : ["Alticom", "Cellnex Telecom"],
             "amsix" : false,
-            "photo_taken" : false,
+            "photo_taken" : true,
             "source" : "datacentermap.com"
         }
     },{
@@ -1195,7 +1231,7 @@ const geojson_datacenters = {
             "coordinates" : [4.669602, 52.388166]
         },
         "properties" : {
-            "name" : ["Iron Mountain AMS-1"],
+            "name" : ["Iron Mountain Haarlem 1"],
             "address" : {
                 "street" : "J.W. Lucasweg 35",
                 "zipcode" : "2031 BE",
@@ -1213,15 +1249,15 @@ const geojson_datacenters = {
             "coordinates" : [4.951131, 52.356672]
         },
         "properties" : {
-            "name" : ["KPN Datacenter Oude Meer"],
+            "name" : ["NLDC Datacenter 1 Amsterdam", "KPN Datacenter Oude Meer"],
             "address" : {
                 "street" : "Fokkerweg 300",
                 "zipcode" : "1438 AN",
                 "city" : "Oude Meer"
             },
-            "owner" : ["Koninklijke KPN N.V"],
+            "owner" : ["NLDC", "Koninklijke KPN N.V"],
             "amsix" : false,
-            "photo_taken" : false,
+            "photo_taken" : true,
             "source" : "datacentermap.com"
         }
     },{
@@ -1231,15 +1267,15 @@ const geojson_datacenters = {
             "coordinates" : [4.665399, 52.391185]
         },
         "properties" : {
-            "name" : ["KPN Datacenter Rotterdam"],
+            "name" : ["NLDC Datacenter Rotterdam", "KPN Datacenter Rotterdam"],
             "address" : {
                 "street" : "Anthony Fokkerweg 40",
                 "zipcode" : "3088 GG",
                 "city" : "Rotterdam"
             },
-            "owner" : ["Koninklijke KPN N.V"],
+            "owner" : ["NLDC", "Koninklijke KPN N.V"],
             "amsix" : false,
-            "photo_taken" : false,
+            "photo_taken" : true,
             "source" : "datacentermap.com"
         }
     },{
@@ -1267,7 +1303,7 @@ const geojson_datacenters = {
             "coordinates" : [4.434657, 51.922858]
         },
         "properties" : {
-            "name" : ["Dataport of Rotterdam"],
+            "name" : ["SmartDC Rotterdam", "Dataport of Rotterdam"],
             "address" : {
                 "street" : "Van Nelleweg 1",
                 "zipcode" : "3044 BC",
@@ -1339,7 +1375,7 @@ const geojson_datacenters = {
             "coordinates" : [4.457454, 51.904835]
         },
         "properties" : {
-            "name" : ["Intermax - DC Schiecentrale"],
+            "name" : ["Intermax DC Schiecentrale"],
             "address" : {
                 "street" : "Weena Zuid 108",
                 "zipcode" : "3012 NC",
@@ -1357,7 +1393,7 @@ const geojson_datacenters = {
             "coordinates" : [4.474568, 51.922887]
         },
         "properties" : {
-            "name" : ["Intermax - DC Schouwburgplein"],
+            "name" : ["Intermax DC Schouwburgplein"],
             "address" : {
                 "street" : "Schouwburgplein 30-34",
                 "zipcode" : "3012 CL",
@@ -1429,13 +1465,13 @@ const geojson_datacenters = {
             "coordinates" : [4.584266, 51.962906]
         },
         "properties" : {
-            "name" : ["The Datacenter Group"],
+            "name" : ["NLDC Datacenter Delft", "The Datacenter Group"],
             "address" : {
                 "street" : "Heertjeslaan 1",
                 "zipcode" : "2629 JG",
                 "city" : "Delft"
             },
-            "owner" : ["The Datacenter Group"],
+            "owner" : ["NLDC", "The Datacenter Group"],
             "amsix" : false,
             "photo_taken" : true,
             "source" : "datacentermap.com"
@@ -1501,7 +1537,7 @@ const geojson_datacenters = {
             "coordinates" : [6.159216, 51.378373]
         },
         "properties" : {
-            "name" : ["Interconnect 's-Hertogenbosch"],
+            "name" : ["Interconnect Den Bosch"],
             "address" : {
                 "street" : "De Steenbok 1",
                 "zipcode" :  "5215 MG",
@@ -1570,13 +1606,13 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [6.524801, 53.247481]
+            "coordinates" : [6.527340, 53.244570]
         },
         "properties" : {
             "name" : ["Bytesnet Datacenter d'Root"],
             "address" : {
                 "street" : "De Bunders 1",
-                "zipcode" : "9747 AB",
+                "zipcode" : "9747 AX",
                 "city" : "Groningen"
             },
             "owner" : ["Bytesnet"],
@@ -1591,13 +1627,13 @@ const geojson_datacenters = {
             "coordinates" : [6.52852, 53.246048]
         },
         "properties" : {
-            "name" : ["TCN Data Hotel Groningen"],
+            "name" : ["Datacenter Groningen", "TCN Data Hotel Groningen"],
             "address" : {
                 "street" : "Zernikelaan 16",
                 "zipcode" : "9747 AA",
                 "city" : "Groningen"
             },
-            "owner" : ["Bytesnet"],
+            "owner" : ["Quality Technology Services", "Bytesnet"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -1609,13 +1645,13 @@ const geojson_datacenters = {
             "coordinates" : [6.473715, 53.207462]
         },
         "properties" : {
-            "name" : ["KPN Datacenter Groningen"],
+            "name" : ["NLDC Datacenter Groningen", "KPN Datacenter Groningen"],
             "address" : {
                 "street" : "Liverpoolweg 10",
                 "zipcode" : "9744 TW",
                 "city" : "Groningen"
             },
-            "owner" : ["Koninklijke KPN N.V"],
+            "owner" : ["NLDC", "Koninklijke KPN N.V"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -1645,25 +1681,7 @@ const geojson_datacenters = {
             "coordinates" : [6.536007, 53.238051]
         },
         "properties" : {
-            "name" : ["Rekenhal"],
-            "address" : {
-                "street" : "Nettelbosje 1",
-                "zipcode" : "9747 AJ",
-                "city" : "Groningen"
-            },
-            "owner" : ["Rekencentrum Rijksuniversiteit Groningen"],
-            "amsix" : false,
-            "photo_taken" : false,
-            "source" : "datacentermap.com"
-        }
-    },{
-        "type" : "Feature",
-        "geometry" : {
-            "type" : "Point",
-            "coordinates" : [6.536007, 53.238051]
-        },
-        "properties" : {
-            "name" : ["Zernikeborg"],
+            "name" : ["Rekencentrum Rijksuniversiteit Groningen", "Zernikeborg"],
             "address" : {
                 "street" : "Nettelbosje 1",
                 "zipcode" : "9747 AJ",
@@ -1681,13 +1699,13 @@ const geojson_datacenters = {
             "coordinates" : [6.858136, 53.437458]
         },
         "properties" : {
-            "name" : ["Data Hotel Eemshaven"],
+            "name" : ["QTS Datacenter Eemshaven", "Data Hotel Eemshaven"],
             "address" : {
                 "street" : "Huibertgatweg 2",
                 "zipcode" : "9979 XZ",
                 "city" : "Eemshaven"
             },
-            "owner" : ["TCN"],
+            "owner" : ["Quality Technology Services", "TCN"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -1699,7 +1717,7 @@ const geojson_datacenters = {
             "coordinates" : [6.85871, 53.4243]
         },
         "properties" : {
-            "name" : ["Google Datacenter"],
+            "name" : ["Google Data Center Eemshaven"],
             "address" : {
                 "street" : "Oostpolder 4",
                 "zipcode" : "9979 XT",
@@ -1714,16 +1732,16 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [6.864552, 53.165015]
+            "coordinates" : [6.864590, 53.166850]
         },
         "properties" : {
-            "name" : ["Datacenter Groningen B.V."],
+            "name" : ["Datacentrum Groningen"],
             "address" : {
                 "street" : "Beneluxweg 4",
                 "zipcode" : "9636 HV",
                 "city" : "Zuidbroek"
             },
-            "owner" : ["Datacenter Groningen B.V."],
+            "owner" : ["Datacentrum Groningen B.V."],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -1755,8 +1773,8 @@ const geojson_datacenters = {
         "properties" : {
             "name" : ["ITDev Solutions"],
             "address" : {
-                "zipcode": "3995DJ",
-                "street": "Het rond 30",
+                "zipcode": "Het Rond 30",
+                "street": "3995 DJ",
                 "city": "Houten"
             },
             "owner" : ["ITDev Solutions"],
@@ -1809,9 +1827,9 @@ const geojson_datacenters = {
         "properties" : {
             "name" : ["Nedcomp"],
             "address" : {
-                "street" : "Ambachtstraat 1c-d 3371XA",
-                "zipcode" : "Hardinxve ld",
-                "city" : "Giessendam"
+                "street" : "Ambachtstraat 1c-d",
+                "zipcode" : "3371 XA",
+                "city" : "Hardinxveld Giessendam"
             },
             "owner" : ["Nedcomp"],
             "amsix" : false,
@@ -2023,7 +2041,7 @@ const geojson_datacenters = {
             "coordinates" : [4.891153, 52.082813]
         },
         "properties" : {
-            "name" : ["Switch Datacenters Woerden"],
+            "name" : ["Switch Datacenters AMS2"],
             "address" : {
                 "street" : "Polanerbaan 1-3",
                 "zipcode" : "3447 GN",
@@ -2074,16 +2092,16 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [5.104102, 52.018592]
+            "coordinates" : [5.105680, 52.018170]
         },
         "properties" : {
-            "name" : ["BT DC Nieuwegein"],
+            "name" : ["NLDC Datacenter Utrecht", "BT DC Nieuwegein"],
             "address" : {
-                "street" : "",
+                "street" : "Groningenhaven 26",
                 "zipcode" : "3433 PC",
                 "city" : "Nieuwegein"
             },
-            "owner" : ["BT Netherlands"],
+            "owner" : ["NLDC", "BT Netherlands"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -2110,12 +2128,12 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [5.765277, 53.20489]
+            "coordinates" : [5.764690, 53.204720]
         },
         "properties" : {
             "name" : ["DataCenter Fryslan 1"],
             "address" : {
-                "street" : "FrancoisHaverSchmidtwei 3",
+                "street" : "François Haverschmidtwei 3",
                 "zipcode" : "8914 BC",
                 "city" : "Leeuwarden"
             },
@@ -2128,12 +2146,12 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [5.765277, 53.20489]
+            "coordinates" : [5.760780, 53.192690]
         },
         "properties" : {
-            "name" : ["DataCenter Fryslan 1"],
+            "name" : ["DataCenter Fryslan 2"],
             "address" : {
-                "street" : "DataCenter Fryslan 2",
+                "street" : "Archimedesweg 3",
                 "zipcode" : "8912 AK",
                 "city" : "Leeuwarden"
             },
@@ -2182,16 +2200,16 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [5.781152, 50.928065]
+            "coordinates" : [5.781080, 50.927920]
         },
         "properties" : {
-            "name" : ["Cofely Datacenter Maastricht-Airport"],
+            "name" : ["ENGIE Datacenter Maastricht", "Cofely Datacenter Maastricht-Airport"],
             "address" : {
                 "street" : "Amerikalaan 35",
                 "zipcode" : "6199 AE",
-                "city" : "Maastricht"
+                "city" : "Maastricht-Airport"
             },
-            "owner" : ["Cofely GDF SUEZ"],
+            "owner" : ["ENGIE", "Cofely GDF SUEZ"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -2311,49 +2329,13 @@ const geojson_datacenters = {
             "coordinates" : [5.987772, 51.19132]
         },
         "properties" : {
-            "name" : ["Datacenter Zuid BV"],
-            "address" : {
-                "street" : "Postbus 1005",
-                "zipcode" : "6040 KA",
-                "city" : "Roermond"
-            },
-            "owner" : ["Datacenter Zuid BV"],
-            "amsix" : false,
-            "photo_taken" : false,
-            "source" : "datacentermap.com"
-        }
-    },{
-        "type" : "Feature",
-        "geometry" : {
-            "type" : "Point",
-            "coordinates" : [6.01987, 51.193267]
-        },
-        "properties" : {
-            "name" : ["ENNE Solutions"],
+            "name" : ["ENNE Solutions", "Datacenter Zuid BV"],
             "address" : {
                 "street" : "Westhoven 6",
                 "zipcode" : "6042 NV",
                 "city" : "Roermond"
             },
-            "owner" : ["ENNE Solutions"],
-            "amsix" : false,
-            "photo_taken" : false,
-            "source" : "datacentermap.com"
-        }
-    },{
-        "type" : "Feature",
-        "geometry" : {
-            "type" : "Point",
-            "coordinates" : [5.704135, 51.526324]
-        },
-        "properties" : {
-            "name" : ["Datacenter Gemert"],
-            "address" : {
-                "street" : "Hemelsbleekweg 15",
-                "zipcode" : "5425 PB",
-                "city" : "De Mortel"
-            },
-            "owner" : ["Alticom", "Cellnex Telecom"],
+            "owner" : ["ENNE Solutions", "Datacenter Zuid BV"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -2409,25 +2391,7 @@ const geojson_datacenters = {
             },
             "owner" : ["Alticom", "Cellnex Telecom"],
             "amsix" : false,
-            "photo_taken" : false,
-            "source" : "datacentermap.com"
-        }
-    },{
-        "type" : "Feature",
-        "geometry" : {
-            "type" : "Point",
-            "coordinates" : [5.604801, 51.437986]
-        },
-        "properties" : {
-            "name" : ["Datacenter Mierlo"],
-            "address" : {
-                "street" : "Torenweg 1",
-                "zipcode" : "5731 CJ",
-                "city" : "Mierlo"
-            },
-            "owner" : ["Alticom", "Cellnex Telecom"],
-            "amsix" : false,
-            "photo_taken" : false,
+            "photo_taken" : true,
             "source" : "datacentermap.com"
         }
     },{
@@ -2545,7 +2509,7 @@ const geojson_datacenters = {
             "coordinates" : [6.849658, 52.237001]
         },
         "properties" : {
-            "name" : ["Datacenter Enschede"],
+            "name" : ["EN1 Enschede IBX Data Center"],
             "address" : {
                 "street" : "Auke Vleerstraat 1",
                 "zipcode" : "7521 PE",
@@ -2671,13 +2635,13 @@ const geojson_datacenters = {
             "coordinates" : [4.640164, 52.131092]
         },
         "properties" : {
-            "name" : ["Alldatacenter BV"],
+            "name" : ["AllSystems Datacenter"],
             "address" : {
-                "street" : "Handelsweg 8",
-                "zipcode" : "2404 CD",
+                "street" : "Curieweg 24",
+                "zipcode" : "2408 BZ",
                 "city" : "Alphen aan den Rijn"
             },
-            "owner" : ["Alldatacenter BV"],
+            "owner" : ["AllSystems B.V."],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -2783,7 +2747,7 @@ const geojson_datacenters = {
             "address" : {
                 "street" : "Hambakenwetering 1",
                 "zipcode" : "5321 DD",
-                "city" : "Den Bosch"
+                "city" : "'s-Hertogenbosch"
             },
             "owner" : ["Blue Star"],
             "amsix" : false,
@@ -2804,24 +2768,6 @@ const geojson_datacenters = {
                 "city" : "Utrecht"
             },
             "owner" : ["RAM Infotechnology"],
-            "amsix" : false,
-            "photo_taken" : false,
-            "source" : "datacentermap.com"
-        }
-    },{
-        "type" : "Feature",
-        "geometry" : {
-            "type" : "Point",
-            "coordinates" : [5.932863, 51.988021]
-        },
-        "properties" : {
-            "name" : ["Dataplace Arnhem"],
-            "address" : {
-                "street" : "Tivolilaan 251",
-                "zipcode" : "6824 BV",
-                "city" : "Arnhem"
-            },
-            "owner" : ["Dataplace B.V."],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -2871,7 +2817,7 @@ const geojson_datacenters = {
         "properties" : {
             "name" : ["Dataplace Brabant"],
             "address" : {
-                "street" : "Gragtmansstraat 1B Industrieterrein Haven 7",
+                "street" : "Gragtmansstraat 1B",
                 "zipcode" : "5145 RA",
                 "city" : "Waalwijk"
             },
@@ -2893,7 +2839,7 @@ const geojson_datacenters = {
                 "zipcode" : "3208 KA",
                 "city" : "Spijkernisse"
             },
-            "owner" : ["Data facilities"],
+            "owner" : ["Data Facilities B.V."],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -2902,14 +2848,14 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [4.741823, 52.27444]
+            "coordinates" : [4.749510, 52.277802]
         },
         "properties" : {
             "name" : ["Interxion AMS8"],
             "address" : {
                 "street" : "Pudongweg 37",
-                "zipcode" : "1437 EM",
-                "city" : "Rozenburg"
+                "zipcode" : "1119 NX",
+                "city" : "Schiphol-Rijk"
             },
             "owner" : ["Interxion"],
             "amsix" : false,
@@ -2923,7 +2869,7 @@ const geojson_datacenters = {
             "coordinates" : [4.678661, 52.289965]
         },
         "properties" : {
-            "name" : ["AMS 15 De President"],
+            "name" : ["Digital Realty De President"],
             "address" : {
                 "street" : "Jan Wijsmullerdreef 10",
                 "zipcode" : "2132 PW",
@@ -2977,13 +2923,13 @@ const geojson_datacenters = {
             "coordinates" : [4.823378, 51.594931]
         },
         "properties" : {
-            "name" : ["@Xit"],
+            "name" : ["@XiT"],
             "address" : {
                 "street" : "Takkebijsters 9b",
                 "zipcode" : "4817 BL",
                 "city" : "Breda"
             },
-            "owner" : ["@Xit"],
+            "owner" : ["@XiT"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -3013,7 +2959,7 @@ const geojson_datacenters = {
             "coordinates" : [4.929288, 51.579078]
         },
         "properties" : {
-            "name" : ["Global-e Datacenter BV"],
+            "name" : ["Global-e Datacenter"],
             "address" : {
                 "street" : "Haansbergseweg 12",
                 "zipcode" : "5121 LJ",
@@ -3071,7 +3017,7 @@ const geojson_datacenters = {
             "address" : {
                 "street" : "Hogeweg 3",
                 "zipcode" : "5301 LB",
-                "city" : "Zalt Bommel"
+                "city" : "Zaltbommel"
             },
             "owner" : ["DC Zaltbommel (DCZA)"],
             "amsix" : false,
@@ -3110,24 +3056,6 @@ const geojson_datacenters = {
                 "city" : "Deventer"
             },
             "owner" : ["ITB2"],
-            "amsix" : false,
-            "photo_taken" : false,
-            "source" : "datacentermap.com"
-        }
-    },{
-        "type" : "Feature",
-        "geometry" : {
-            "type" : "Point",
-            "coordinates" : [6.203004, 52.238553]
-        },
-        "properties" : {
-            "name" : ["Green Data Systems"],
-            "address" : {
-                "street" : "Rigastraat 18",
-                "zipcode" : "7418 EW",
-                "city" : "Deventer"
-            },
-            "owner" : ["Green Data Systems"],
             "amsix" : false,
             "photo_taken" : false,
             "source" : "datacentermap.com"
@@ -3193,7 +3121,7 @@ const geojson_datacenters = {
             "coordinates" : [5.702179, 52.539145]
         },
         "properties" : {
-            "name" : ["Solcon, locatie Dronten"],
+            "name" : ["Solcon Dronten"],
             "address" : {
                 "street" : "Het Spaarne 11",
                 "zipcode" : "8253 PE",
@@ -3352,10 +3280,28 @@ const geojson_datacenters = {
         "type" : "Feature",
         "geometry" : {
             "type" : "Point",
-            "coordinates" : [0, 0]
+            "coordinates" : [5.594930, 51.810486]
         },
         "properties" : {
-            "name" : ["Digital Realty Data Center"],
+            "name" : ["Alticom Datacenter Megen"],
+            "address" : {
+                "street" : "Ravensteinsedijk 2A",
+                "zipcode" : "5368 LB",
+                "city" : "Megen"
+            },
+            "owner" : ["Alticom"],
+            "amsix" : false,
+            "photo_taken" : true,
+            "source" : "our own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.826760, 52.388090]
+        },
+        "properties" : {
+            "name" : ["Digital Realty Naritaweg"],
             "address" : {
                 "street" : "Naritaweg 52",
                 "zipcode" : "1043 BZ",
@@ -3365,6 +3311,150 @@ const geojson_datacenters = {
             "amsix" : false,
             "photo_taken" : true,
             "source" : "our own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [5.933860, 51.986970]
+        },
+        "properties" : {
+            "name" : ["Dataplace Arnhem"],
+            "address" : {
+                "street" : "Tivolilaan 251",
+                "zipcode" : "6824 BV",
+                "city" : "Arnhem"
+            },
+            "owner" : ["Dataplace"],
+            "amsix" : false,
+            "photo_taken" : true,
+            "source" : "our own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [5.387460, 51.441660]
+        },
+        "properties" : {
+            "name" : ["Interconnect Eindhoven"],
+            "address" : {
+                "street" : "Park Forum 1041",
+                "zipcode" : "5657 HJ",
+                "city" : "Eindhoven"
+            },
+            "owner" : ["Interconnect"],
+            "amsix" : false,
+            "photo_taken" : true,
+            "source" : "our own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [5.604430, 51.438840]
+        },
+        "properties" : {
+            "name" : ["Alticom Datacenter Mierlo", "Televisietoren Mierlo"],
+            "address" : {
+                "street" : "Torenweg 1",
+                "zipcode" : "5731 CJ",
+                "city" : "Mierlo"
+            },
+            "owner" : ["Alticom"],
+            "amsix" : false,
+            "photo_taken" : true,
+            "source" : "our own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [5.704130, 51.526330]
+        },
+        "properties" : {
+            "name" : ["Alticom Datacenter", "Mediatoren De Mortel"],
+            "address" : {
+                "street" : "Hemelsbleekweg 15",
+                "zipcode" : "5425 PB",
+                "city" : "De Mortel"
+            },
+            "owner" : ["Alticom"],
+            "amsix" : false,
+            "photo_taken" : true,
+            "source" : "our own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.745060, 52.283880]
+        },
+        "properties" : {
+            "name" : ["e-shelter Amsterdam"],
+            "address" : {
+                "street" : "Aviolanda 1",
+                "zipcode" : "1437 ED",
+                "city" : "Rozenburg"
+            },
+            "owner" : ["e-shelter"],
+            "amsix" : false,
+            "photo_taken" : true,
+            "source" : "our own find"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.699980, 52.383450]
+        },
+        "properties" : {
+            "name" : ["Amsterdam I Data Center"],
+            "address" : {
+                "street" : "Linieweg 1",
+                "zipcode" : "1165 AA",
+                "city" : "Halfweg"
+            },
+            "owner" : ["CyrusOne"],
+            "amsix" : false,
+            "photo_taken" : false,
+            "source" : "Dutch Data Center Association"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.667720, 52.288750]
+        },
+        "properties" : {
+            "name" : ["Digital Realty Hoofddorp"],
+            "address" : {
+                "street" : "Hoofdweg 873",
+                "zipcode" : "2131 MB",
+                "city" : "Hoofddorp"
+            },
+            "owner" : ["CyrusOne"],
+            "amsix" : false,
+            "photo_taken" : false,
+            "source" : "Dutch Data Center Association"
+        }
+    },{
+        "type" : "Feature",
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [4.686320, 52.290630]
+        },
+        "properties" : {
+            "name" : ["Dataplace Amsterdam"],
+            "address" : {
+                "street" : "Parellaan 9",
+                "zipcode" : "2132 WS",
+                "city" : "Hoofddorp"
+            },
+            "owner" : ["Dataplace"],
+            "amsix" : false,
+            "photo_taken" : false,
+            "source" : "Dutch Data Center Association"
         }
     }]
 };
