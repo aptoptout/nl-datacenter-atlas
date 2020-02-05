@@ -26,8 +26,8 @@
 
         .mapboxgl-popup-content {
             padding: 1em;
-            font-size: 14px;
-            line-height: 1.15em;
+            font-size: 12px;
+            line-height: 1.25em;
             color: rgba(51,51,51,1);
             border-radius: 6px;
             background-color: rgba(255, 250, 215, 1);
@@ -35,11 +35,56 @@
             box-shadow: 0 0 12px 6px rgba(255,255,255,0.5);
         }
 
+        .mapboxgl-popup-content h4, .mapboxgl-popup-content p, .mapboxgl-popup-content span {
+            margin: 0;
+        }
+
+        .mapboxgl-popup-content h4, .mapboxgl-popup-content h4 > span {
+            font-size: 14px;
+            line-height: 1em;
+        }
+
+        .mapboxgl-popup-content h4 > span:not(:first-of-type)::before {
+            content: ', '
+        }
+
+        .mapboxgl-popup-content div > span {
+            margin-right: 0.25em;
+            padding: 0.25em;
+            border: 1px solid rgba(0,0,0,0.25);
+            border-radius: 4px;
+        }
+
+        .mapboxgl-popup-content h4 + p {
+            margin: 0.5em 0;
+            text-transform: capitalize;
+        }
+
+        .mapboxgl-popup-content > div > div:nth-of-type(1) {
+            margin: 0.5em 0 1em 0;
+        }
+
+        .mapboxgl-popup-content > div > div:nth-of-type(2) {
+            margin: 0.5em 0;
+        }
+
+        .mapboxgl-popup-content > div > div:nth-of-type(2) > p {
+            text-transform: capitalize;
+        }
+
+        .mapboxgl-popup-content > div > div:nth-of-type(3) {
+            margin: 0.5em 0;
+        }
+
         .mapboxgl-popup-tip {
             display: none;
         }
 
         .mapboxgl-popup-close-button {
+            display: none;
+        }
+
+        .mapboxgl-control-container {
             display: none;
         }
 
@@ -128,16 +173,20 @@
             top: 0;
             right: -98vw;
 
-            font-size: 24px;
+            font-size: 16px;
             line-height: 1.25em;
+            font-weight: normal;
 
             color: white;
-            background-color: rgba(0,0,125,0.6);
-            transition: right 1s linear;
+            background-color: rgba(0,0,0,0.2);
+            transition: all 0.75s linear;
+
+            overflow-y: auto;
         }
 
         #data:hover {
             right: -5vw;
+            background-color: rgba(0,0,0,0.8);
         }
 
         #data > .data_handle {
@@ -148,9 +197,11 @@
             font-size: 32px;
             line-height: 100vh;
             text-align: center;
+            position: fixed;
         }
 
         #data > .data_content {
+            margin-left: 2vw;
             padding-top: 4em;
             padding-left: 1em;
             padding-right: 1em;
@@ -162,17 +213,24 @@
             display: flex;
 
             width: 94vw;
-
+            font-size: 18px;
+            font-weight: bold;
             margin-bottom: 1em;
+
+            top: 0;
         }
 
         #data > .data_content span {
             flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         #data > .data_content > .data_content_data > .data_content_data_datacenter {
             display: flex;
-            font-size: 18px;
+            font-size: 16px;
+            line-height: 2em;
         }
 
     </style>
@@ -181,11 +239,20 @@
 <div id="ui">
     <div class="production">
         <button class="download" onclick="downloadCurrentView()">Save current view</button>
-            <!--    <button class="getcenter" onclick="getCurrentCenterLatLong()">Get current centroid LatLong</button>-->
+        <!--    <button class="getcenter" onclick="getCurrentCenterLatLong()">Get current centroid LatLong</button>-->
         <div class="centers">
         </div>
     </div>
     <div class="dev">
+<!--        <div class="new-layer-2">-->
+<!--            <select class="filter-option">-->
+<!--                <option></option>-->
+<!--            </select>-->
+<!--            <select class="color-option">-->
+<!--                <option></option>-->
+<!--            </select>-->
+<!--            <button onclick="addRemoveFilterLayer(this)" >Add</button>-->
+<!--        </div>-->
         <div><input onclick="addRemoveFilterLayer(this)" type="checkbox" checked value="photo_taken-true"><span>Photographed</span></div>
         <div><input onclick="addRemoveFilterLayer(this)" type="checkbox" checked value="photo_taken-false"><span>Not photographed</span></div>
         <div><input onclick="addRemoveFilterLayer(this)" type="checkbox" value="amsix-true"><span>AMS-IX</span></div>
@@ -197,21 +264,64 @@
 <div id="data">
     <div class="data_handle">></div>
     <div class="data_content">
-        <div class="data_content_header"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>AMS-IX</span><span>Gefotografeerd</span></div>
+        <div class="data_content_header"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>Gefotografeerd</span></div>
         <div class="data_content_data">
-            <div class="data_content_data_datacenter"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>AMS-IX</span><span>Gefotografeerd</span></div>
-            <div class="data_content_data_datacenter"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>AMS-IX</span><span>Gefotografeerd</span></div>
-            <div class="data_content_data_datacenter"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>AMS-IX</span><span>Gefotografeerd</span></div>
-            <div class="data_content_data_datacenter"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>AMS-IX</span><span>Gefotografeerd</span></div>
-            <div class="data_content_data_datacenter"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>AMS-IX</span><span>Gefotografeerd</span></div>
-            <div class="data_content_data_datacenter"><span>Naam</span><span>Straat</span><span>Postcode</span><span>Stad</span><span>Organisatie</span><span>AMS-IX</span><span>Gefotografeerd</span></div>
         </div>
     </div>
 </div>
 
-<script src="data/datacenters.js"></script>
+<!--<script src="secret_keys.js"></script>-->
+<!--<script src="data/datacenters.js"></script>-->
 <script src="data/landingpoints.js"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 <script>
+    const dataCentreDataSheet = '1CsugJ7ZCSGgOdu7Ms0IT9unlLNXhbNnto1zbmlx3Zbc';
+    const geoJSONDataCentres = {
+        "type": "FeatureCollection",
+        "features": []
+    };
+
+    function getSheetData() {
+        Tabletop.init({
+            key: dataCentreDataSheet,
+            callback: processData,
+            simpleSheet: true,
+            debug: true
+        });
+    }
+
+    const processData = async(data, tabletop) => {
+        await Promise.all(data.map(async dataCentre => {
+            const dataCentreObject = {
+                "type": dataCentre.type,
+                "geometry": {
+                    "type" : dataCentre.geometry__type,
+                    "coordinates" : [dataCentre.longitude, dataCentre.latitude]
+                },
+                "properties": {
+                    "name": [dataCentre.name__001, dataCentre.name__002, dataCentre.name__003],
+                    "address": {"street": dataCentre.street, "zipcode": dataCentre.zipCode, "city": dataCentre.city},
+                    "owner": [dataCentre.owner__001, dataCentre.owner__002],
+                    "amsix": JSON.parse(dataCentre.amsIX.toLowerCase()),
+                    "photo_taken": JSON.parse(dataCentre.photoTaken.toLowerCase()),
+                    "dda_participant": JSON.parse(dataCentre.ddaParticipant.toLowerCase()),
+                    "dc_type": dataCentre.dcType.toLowerCase(),
+                    "in_google_maps": JSON.parse(dataCentre.inGoogleMaps.toLowerCase()),
+                    "source": dataCentre.source,
+                    "time_stamp": dataCentre.timeStamp
+                }
+            };
+
+            geoJSONDataCentres.features.push(dataCentreObject);
+        }));
+
+        showData();
+        addSheetToDiv();
+    };
+
+    window.addEventListener('load', getSheetData);
+
     window.addEventListener('resize', function(){
         config.container.style.width = window.innerWidth + 'px';
         config.container.style.height = window.innerHeight + 'px';
@@ -366,35 +476,121 @@
                     });
                 }
             }
-
-            let checkedFilters = document.getElementsByTagName('input');
-            console.log(checkedFilters);
-            [...checkedFilters].forEach(function(filter, index) {
-                if(filter.hasAttribute("checked")) {
-                    addLayer(filter);
-
-                    map.on("click", filter.getAttribute("value") + '-layer', function (e) {
-                        const inside =
-                            '<strong>' +
-                            JSON.parse(e.features[0].properties.name) +
-                            '</strong><br>' +
-                            e.features[0].properties.owner +
-                            '<br>' +
-                            e.features[0].properties.address +
-                            '<br><br>' +
-                            e.features[0].properties.source;
-
-                        new mapboxgl.Popup()
-                            .setLngLat(e.lngLat)
-                            .setHTML(inside)
-                            .addTo(map);
-                    });
-                }
-            });
         }
     });
 
-    map.scrollZoom.disable();
+    const showData = function() {
+        let checkedFilters = document.getElementsByTagName('input');
+        // console.log(checkedFilters);
+        [...checkedFilters].forEach(function(filter, index) {
+            if(filter.hasAttribute("checked")) {
+                addLayer(filter);
+
+                map.on("click", filter.getAttribute("value") + '-layer', function(e) {
+                    // datacentre name
+                    const dcName = document.createElement("h4");
+                    JSON.parse(e.features[0].properties.name).forEach(function(name, index) {
+                        if(name.length > 0 ){
+                            const thisName = document.createElement("span");
+                            thisName.innerHTML = name;
+                            dcName.append(thisName);
+                        }
+                    });
+
+                    const dcType = document.createElement("p");
+                    dcType.innerHTML = e.features[0].properties.dc_type;
+
+                    // owners
+                    const owners = document.createElement("div");
+                    JSON.parse(e.features[0].properties.owner).forEach(function(owner, index) {
+                        if(owner.length > 0 ){
+                            const ownersName = document.createElement("span");
+                            ownersName.innerHTML = owner;
+                            owners.append(ownersName);
+                        }
+                    });
+
+                    // address
+                    const address = document.createElement("div");
+                    const addressData = JSON.parse(e.features[0].properties.address);
+                    const street = document.createElement("p");
+                    street.innerHTML = addressData.street;
+                    const zipcode = document.createElement("p");
+                    zipcode.innerHTML = addressData.zipcode;
+                    const city = document.createElement("p");
+                    city.innerHTML = addressData.city;
+                    address.append(street, zipcode, city);
+
+
+                    // additional info
+                    const extrainfo = document.createElement("div");
+                    const phototaken = document.createElement("p");
+                    phototaken.innerHTML = "Photo taken: " + e.features[0].properties.photo_taken;
+                    const ddapartner = document.createElement("p");
+                    ddapartner.innerHTML = "DDA Participant: " + e.features[0].properties.dda_participant;
+                    const ingooglemaps = document.createElement("p");
+                    ingooglemaps.innerHTML = "Google Maps: " + e.features[0].properties.in_google_maps;
+                    extrainfo.append(phototaken, ddapartner, ingooglemaps);
+
+                    // source and time
+                    const sourcetimestamp = document.createElement("p");
+                    const linksource = document.createElement("a");
+                    linksource.setAttribute('href', 'www.' + e.features[0].properties.source);
+                    linksource.innerHTML = e.features[0].properties.source;
+
+                    sourcetimestamp.innerHTML = linksource.outerHTML + ", " + e.features[0].properties.time_stamp;
+
+                    // wrapping up
+                    const inside = document.createElement("div");
+                    inside.append(dcName, dcType, owners, address, extrainfo, sourcetimestamp);
+
+                    // const inside =
+                    //     '<strong>' +
+                    //     JSON.parse(e.features[0].properties.name) +
+                    //     '</strong><br>' +
+                    //     e.features[0].properties.owner +
+                    //     '<br>' +
+                    //     e.features[0].properties.address +
+                    //     '<br><br>' +
+                    //     e.features[0].properties.source;
+
+                    new mapboxgl.Popup()
+                        .setLngLat(e.lngLat)
+                        .setHTML(inside.outerHTML)
+                        .addTo(map);
+                });
+            }
+        });
+    };
+
+    const addSheetToDiv = function() {
+        const dataSheet = document.getElementsByClassName("data_content_data")[0];
+        geoJSONDataCentres.features.forEach(function(dc, index) {
+            const divElement = document.createElement("div");
+            divElement.classList.add("data_content_data_datacenter");
+
+            const nameSpan = document.createElement("span");
+            nameSpan.innerHTML = dc.properties.name;
+
+            const streetSpan = document.createElement("span");
+            streetSpan.innerHTML = dc.properties.address.street;
+
+            const zipcodeSpan = document.createElement("span");
+            zipcodeSpan.innerHTML = dc.properties.address.zipcode;
+
+            const citySpan = document.createElement("span");
+            citySpan.innerHTML = dc.properties.address.city;
+
+            const organisationSpan = document.createElement("span");
+            organisationSpan.innerHTML = dc.properties.owner;
+
+            const photoSpan = document.createElement("span");
+            photoSpan.innerHTML = dc.properties.photo_taken;
+
+            divElement.append(nameSpan, streetSpan, zipcodeSpan, citySpan, organisationSpan, photoSpan);
+            dataSheet.append(divElement);
+        });
+    };
 
     const downloadCurrentView = function(num) {
         map.getCanvas().toBlob(function(blob) {
@@ -418,13 +614,13 @@
             el.setAttribute("checked", true);
             addLayer(el);
 
-            console.log(map.getStyle().layers);
+            // console.log(geoJSONDataCentres);
         } else {
             el.removeAttribute("checked");
             map.removeLayer(el.getAttribute("value") + '-layer');
             map.removeSource(el.getAttribute("value") + '-source');
 
-            console.log(map.getStyle().layers);
+            // console.log(map.getStyle().layers);
         }
     };
 
@@ -435,7 +631,7 @@
 
         map.addSource(valueAttr + '-source', {
             'type': 'geojson',
-            'data': geojson_datacenters
+            'data': geoJSONDataCentres
         });
 
         map.addLayer({
@@ -458,6 +654,8 @@
     };
 
     if(config.mode === 'production') {
+        map.scrollZoom.disable();
+
         document.getElementsByClassName('dev')[0].style.display = 'none';
 
         config.centers.forEach(function(center, i) {
@@ -470,7 +668,6 @@
     } else {
         document.getElementsByClassName('production')[0].style.display = 'none';
     }
-
 </script>
 </body>
 </html>
