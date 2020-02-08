@@ -2,258 +2,64 @@
 <html>
 <head>
     <meta charset=utf-8 />
-    <title>Datacenter Atlas</title>
+    <title>Dutch Data Centre Atlas</title>
+
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
     <script type="text/javascript" src="//cdn.jsdelivr.net/canvas-toblob/0.1/canvas-toBlob.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/filesaver.js@1.3.4/FileSaver.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body {
-            margin:0;
-            padding:0;
-            background-color: grey;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
 
-        #map {
-            position:absolute;
-            top:0;
-            bottom:0;
-            height: 100vh;
-            width: 100vw;
-        }
-
-        .mapboxgl-popup-content {
-            padding: 1em;
-            font-size: 12px;
-            line-height: 1.25em;
-            color: rgba(51,51,51,1);
-            border-radius: 6px;
-            background-color: rgba(255, 250, 215, 1);
-            border: 1px solid rgba(255,205,189,0.5);
-            box-shadow: 0 0 12px 6px rgba(255,255,255,0.5);
-        }
-
-        .mapboxgl-popup-content h4, .mapboxgl-popup-content p, .mapboxgl-popup-content span {
-            margin: 0;
-        }
-
-        .mapboxgl-popup-content h4, .mapboxgl-popup-content h4 > span {
-            font-size: 14px;
-            line-height: 1em;
-        }
-
-        .mapboxgl-popup-content h4 > span:not(:first-of-type)::before {
-            content: ', '
-        }
-
-        .mapboxgl-popup-content div > span {
-            margin-right: 0.25em;
-            padding: 0.25em;
-            border: 1px solid rgba(0,0,0,0.25);
-            border-radius: 4px;
-        }
-
-        .mapboxgl-popup-content h4 + p {
-            margin: 0.5em 0;
-            text-transform: capitalize;
-        }
-
-        .mapboxgl-popup-content > div > div:nth-of-type(1) {
-            margin: 0.5em 0 1em 0;
-        }
-
-        .mapboxgl-popup-content > div > div:nth-of-type(2) {
-            margin: 0.5em 0;
-        }
-
-        .mapboxgl-popup-content > div > div:nth-of-type(2) > p {
-            text-transform: capitalize;
-        }
-
-        .mapboxgl-popup-content > div > div:nth-of-type(3) {
-            margin: 0.5em 0;
-        }
-
-        .mapboxgl-popup-tip {
-            display: none;
-        }
-
-        .mapboxgl-popup-close-button {
-            display: none;
-        }
-
-        .mapboxgl-control-container {
-            display: none;
-        }
-
-        .getcenter {
-            position: fixed;
-            top: 60px;
-            left: 20px;
-            z-index: 9999;
-        }
-
-        .getcenter:hover {
-            cursor: pointer;
-            color: blue;
-        }
-
-        #ui {
-            position: relative;
-            display: block;
-            width: 50px;
-            height: 40px;
-            z-index: 9999;
-        }
-
-        #ui > .production {
-            position: fixed;
-            display: block;
-
-            bottom: 0;
-
-            width: 100vw;
-
-            padding: 1em;
-
-            background-color: rgba(0, 0, 0, 0.15);
-        }
-
-        #ui > .dev {
-            position: fixed;
-            display: block;
-
-            top: 1.25em;
-            left: 1.25em;
-
-            width: auto;
-            height: auto;
-
-            padding: 0.5em;
-
-            border-radius: 4px;
-            background: white;
-            border: 1px solid rgba(0,0,0,0.33);
-            box-shadow: 0 0 12px rgba(0,0,0,0.15);
-        }
-
-        #ui > .dev > div {
-            display: inline-block;
-
-            margin-right: 0.5em;
-
-            font-size: 14px;
-            line-height: 1.25em;
-        }
-
-        input + span {
-            padding-left: 0.25em;
-        }
-
-        .download {
-            display: block;
-        }
-        button {
-            margin: 0.5rem;
-        }
-        button:hover {
-            cursor: pointer;
-            color: blue;
-        }
-
-        #data {
-            position: fixed;
-            display: flex;
-
-            width: 100vw;
-            height: 100vh;
-
-            top: 0;
-            right: -98vw;
-
-            font-size: 16px;
-            line-height: 1.25em;
-            font-weight: normal;
-
-            color: white;
-            background-color: rgba(0,0,0,0.2);
-            transition: all 0.75s linear;
-
-            overflow-y: auto;
-        }
-
-        #data:hover {
-            right: -5vw;
-            background-color: rgba(0,0,0,0.8);
-        }
-
-        #data > .data_handle {
-            width: 2vw;
-            height: 100vh;
-
-            font-weight: bold;
-            font-size: 32px;
-            line-height: 100vh;
-            text-align: center;
-            position: fixed;
-        }
-
-        #data > .data_content {
-            margin-left: 2vw;
-            padding-top: 4em;
-            padding-left: 1em;
-            padding-right: 1em;
-        }
-
-        #data > .data_content > .data_content_header {
-            display: flex;
-
-            width: 94vw;
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 1em;
-
-            top: 0;
-        }
-
-        #data > .data_content span {
-            flex: 1;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
-
-        #data > .data_content > .data_content_data > .data_content_data_datacenter {
-            display: flex;
-            font-size: 16px;
-            line-height: 2em;
-        }
-
-    </style>
+    <link href="css/stylesheet.css" rel="stylesheet">
 </head>
+
 <body>
+<div id="loadingState">…fetching…data…centres…</div>
+
 <div id="ui">
     <div class="production">
         <button class="download" onclick="downloadCurrentView()">Save current view</button>
-        <!--    <button class="getcenter" onclick="getCurrentCenterLatLong()">Get current centroid LatLong</button>-->
-        <div class="centers">
-        </div>
+        <div class="centers"></div>
     </div>
+
     <div class="dev">
-<!--        <div class="new-layer-2">-->
-<!--            <select class="filter-option">-->
-<!--                <option></option>-->
-<!--            </select>-->
-<!--            <select class="color-option">-->
-<!--                <option></option>-->
-<!--            </select>-->
-<!--            <button onclick="addRemoveFilterLayer(this)" >Add</button>-->
-<!--        </div>-->
-        <div><input onclick="addRemoveFilterLayer(this)" type="checkbox" checked value="photo_taken-true"><span>Photographed</span></div>
-        <div><input onclick="addRemoveFilterLayer(this)" type="checkbox" checked value="photo_taken-false"><span>Not photographed</span></div>
-        <div><input onclick="addRemoveFilterLayer(this)" type="checkbox" value="amsix-true"><span>AMS-IX</span></div>
+        <div class="map-layer" data-lname="layer-1">
+            <div id="filter-options">
+                <div><input type="checkbox" checked value="all-true"><span>All</span></div>
+                <div><input type="checkbox" value="photo_taken-true"><span>Photographed</span></div>
+                <div><input type="checkbox" value="photo_taken-false"><span>Not photographed</span></div>
+                <div><input type="checkbox" value="amsix-true"><span>AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" value="amsix-false"><span>No AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" value="dda_participant-true"><span>DDA Participant</span></div>
+                <div><input type="checkbox" value="dda_participant-false"><span>Not DDA Participant</span></div>
+                <div><input type="checkbox" value="dc_type-colocation"><span>Colocation</span></div>
+                <div><input type="checkbox" value="dc_type-hyperscale"><span>Hyperscale</span></div>
+                <div><input type="checkbox" value="in_google_maps-true"><span>Appears in Google Maps</span></div>
+                <div><input type="checkbox" value="in_google_maps-false"><span>Not in Google Maps</span></div>
+                <div><input type="checkbox" value="time_stamp-2020"><span>Verified in 2020</span></div>
+                <div><input type="checkbox" value="time_stamp-2018"><span>Verified in 2018</span></div>
+            </div>
+
+            <select id="color-option">
+                <option selected value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+                <option value="grey">Grey</option>
+                <option value="yellow">Yellow</option>
+            </select>
+
+            <select id="size-option">
+                <option selected value="4">4px</option>
+                <option value="8">8px</option>
+                <option value="16">16px</option>
+            </select>
+
+            <button onclick="updateExistingLayer(this)">Update layer</button>
+        </div>
     </div>
 </div>
 
@@ -268,66 +74,12 @@
     </div>
 </div>
 
-<!--<script src="secret_keys.js"></script>-->
-<!--<script src="data/datacenters.js"></script>-->
 <script src="data/landingpoints.js"></script>
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
 <script>
-    const dataCentreDataSheet = '1CsugJ7ZCSGgOdu7Ms0IT9unlLNXhbNnto1zbmlx3Zbc';
-    const geoJSONDataCentres = {
-        "type": "FeatureCollection",
-        "features": []
-    };
-
-    function getSheetData() {
-        Tabletop.init({
-            key: dataCentreDataSheet,
-            callback: processData,
-            simpleSheet: true,
-            debug: true
-        });
-    }
-
-    const processData = async(data, tabletop) => {
-        await Promise.all(data.map(async dataCentre => {
-            const dataCentreObject = {
-                "type": dataCentre.type,
-                "geometry": {
-                    "type" : dataCentre.geometry__type,
-                    "coordinates" : [dataCentre.longitude, dataCentre.latitude]
-                },
-                "properties": {
-                    "name": [dataCentre.name__001, dataCentre.name__002, dataCentre.name__003],
-                    "address": {"street": dataCentre.street, "zipcode": dataCentre.zipCode, "city": dataCentre.city},
-                    "owner": [dataCentre.owner__001, dataCentre.owner__002],
-                    "amsix": JSON.parse(dataCentre.amsIX.toLowerCase()),
-                    "photo_taken": JSON.parse(dataCentre.photoTaken.toLowerCase()),
-                    "dda_participant": JSON.parse(dataCentre.ddaParticipant.toLowerCase()),
-                    "dc_type": dataCentre.dcType.toLowerCase(),
-                    "in_google_maps": JSON.parse(dataCentre.inGoogleMaps.toLowerCase()),
-                    "source": dataCentre.source,
-                    "time_stamp": dataCentre.timeStamp
-                }
-            };
-
-            geoJSONDataCentres.features.push(dataCentreObject);
-        }));
-
-        showData();
-        addSheetToDiv();
-    };
-
-    window.addEventListener('load', getSheetData);
-
-    window.addEventListener('resize', function(){
-        config.container.style.width = window.innerWidth + 'px';
-        config.container.style.height = window.innerHeight + 'px';
-    });
-
     const config = {
         container: document.querySelector("#map"),
         access_token: 'pk.eyJ1IjoiYXB0LW9wdC1vdXQiLCJhIjoiY2syYmU2a282MWNkdTNtb2JjeHhrdG91dSJ9.bIWJSVgBP7qMeB-IlkqrZw',
+        dataCentreDataSheet: '1CsugJ7ZCSGgOdu7Ms0IT9unlLNXhbNnto1zbmlx3Zbc',
         styleLines: {
             production: 'mapbox://styles/apt-opt-out/ck2x6woe41lay1cq3n70uau16?fresh=true',
             dev: 'mapbox://styles/apt-opt-out/ck5zjrpzn1he81imnrj1lgq6r?fresh=true'
@@ -358,8 +110,12 @@
             height: 2560
         },
         colors: {
-            photographed: [0, 125, 255],
-            notPhotographed: [255, 0, 0]
+            red: [255, 0, 0],
+            green: [0, 255, 0],
+            blue: [0, 0, 255],
+            black: [0, 0, 0],
+            grey: [129, 129, 129],
+            yellow: [255, 255, 0]
         },
         centers: [{
             lat: 51.34599527489911,
@@ -424,6 +180,63 @@
         }]
     };
 
+    const geoJSONDataCentres = {
+        "type": "FeatureCollection",
+        "features": []
+    };
+
+    const getSheetData = function() {
+        Tabletop.init({
+            key: config['dataCentreDataSheet'],
+            callback: processData,
+            simpleSheet: true,
+            debug: true
+        });
+    };
+
+    const processData = async(data, tabletop) => {
+        await Promise.all(data.map(async dataCentre => {
+            const dataCentreObject = {
+                "type": dataCentre.type,
+                "geometry": {
+                    "type" : dataCentre.geometry__type,
+                    "coordinates" : [dataCentre.longitude, dataCentre.latitude]
+                },
+                "properties": {
+                    "name": [dataCentre.name__001, dataCentre.name__002, dataCentre.name__003],
+                    "address": {"street": dataCentre.street, "zipcode": dataCentre.zipCode, "city": dataCentre.city},
+                    "owner": [dataCentre.owner__001, dataCentre.owner__002],
+                    "amsix": JSON.parse(dataCentre.amsIX.toLowerCase()),
+                    "photo_taken": JSON.parse(dataCentre.photoTaken.toLowerCase()),
+                    "dda_participant": JSON.parse(dataCentre.ddaParticipant.toLowerCase()),
+                    "dc_type": dataCentre.dcType.toLowerCase(),
+                    "in_google_maps": JSON.parse(dataCentre.inGoogleMaps.toLowerCase()),
+                    "source": dataCentre.source,
+                    "time_stamp": dataCentre.timeStamp
+                }
+            };
+            geoJSONDataCentres.features.push(dataCentreObject);
+        }));
+
+        showData();
+        addSheetToDiv();
+
+        setTimeout(function(){
+            document.getElementById("loadingState").style.opacity = '0';
+        }, 1000);
+
+        setTimeout(function(){
+            document.getElementById("loadingState").style.display = 'none';
+        }, 2000);
+    };
+
+    window.addEventListener('load', getSheetData());
+
+    window.addEventListener('resize', function(){
+        config.container.style.width = window.innerWidth + 'px';
+        config.container.style.height = window.innerHeight + 'px';
+    });
+
     config.container.style.width = config[config.mode].width + 'px';
     config.container.style.height = config[config.mode].height + 'px';
 
@@ -478,14 +291,14 @@
     });
 
     const showData = function() {
-        let checkedFilters = document.getElementsByTagName('input');
-        // console.log(checkedFilters);
+        let checkedFilters = document.getElementsByClassName('map-layer');
+
         [...checkedFilters].forEach(function(filter, index) {
-            if(filter.hasAttribute("checked")) {
                 addLayer(filter);
 
+                // marker on click
                 map.on("click", filter.getAttribute("value") + '-layer', function(e) {
-                    // datacentre name
+                    // data centre name
                     const dcName = document.createElement("h4");
                     JSON.parse(e.features[0].properties.name).forEach(function(name, index) {
                         if(name.length > 0 ){
@@ -542,22 +355,11 @@
                     const inside = document.createElement("div");
                     inside.append(dcName, dcType, owners, address, extrainfo, sourcetimestamp);
 
-                    // const inside =
-                    //     '<strong>' +
-                    //     JSON.parse(e.features[0].properties.name) +
-                    //     '</strong><br>' +
-                    //     e.features[0].properties.owner +
-                    //     '<br>' +
-                    //     e.features[0].properties.address +
-                    //     '<br><br>' +
-                    //     e.features[0].properties.source;
-
                     new mapboxgl.Popup()
                         .setLngLat(e.lngLat)
                         .setHTML(inside.outerHTML)
                         .addTo(map);
                 });
-            }
         });
     };
 
@@ -590,65 +392,69 @@
         });
     };
 
-    const downloadCurrentView = function(num) {
-        map.getCanvas().toBlob(function(blob) {
-            saveAs(blob, 'kabk_rg_dc atlas_map-' + num + '.png');
-        });
-    };
-
-    const getCurrentCenterLatLong = function() {
-        console.log(map.getCenter());
-    };
-
-    const setNewCenter = function(num) {
-        map.setCenter([config.centers[num].lng, config.centers[num].lat]);
-
-        const downloadEl = document.querySelector(".download");
-        downloadEl.setAttribute('onclick', `downloadCurrentView(${num})`);
-    };
-
     const addRemoveFilterLayer = function(el) {
         if(!el.hasAttribute("checked")) {
             el.setAttribute("checked", true);
             addLayer(el);
-
-            // console.log(geoJSONDataCentres);
         } else {
             el.removeAttribute("checked");
             map.removeLayer(el.getAttribute("value") + '-layer');
             map.removeSource(el.getAttribute("value") + '-source');
-
-            // console.log(map.getStyle().layers);
         }
     };
 
     const addLayer = function(el) {
-        const valueAttr = el.getAttribute("value");
-        const filterType = valueAttr.split('-')[0].trim();
-        const filterValue = valueAttr.split('-')[1].trim();
+        const className = el.classList[0];
+        const layerName = el.getAttribute("data-lname");
 
-        map.addSource(valueAttr + '-source', {
+        const filterNodeList = document.querySelectorAll(`.${className}[data-lname='${layerName}'] input`);
+        let filterArray = ["all"];
+
+        [...filterNodeList].forEach(function(filter, index) {
+            if(filter.hasAttribute("checked")) {
+                const valueAttr = filter.getAttribute("value");
+                const filterType = valueAttr.split('-')[0].trim();
+                const filterValue = valueAttr.split('-')[1].trim();
+
+                switch(filterType){
+                    case 'all':
+                        break;
+                    default:
+                        filterArray.push(["==", filterType, JSON.parse(filterValue)]);
+                        break;
+                }
+            }
+        });
+
+        // color selection
+        const colorSelect = document.querySelector(`.${className}[data-lname="${layerName}"] #color-option`);
+        const selectedColor = colorSelect.options[colorSelect.selectedIndex].value;
+
+        // size selection
+        const sizeSelect = document.querySelector(`.${className}[data-lname="${layerName}"] #size-option`);
+        const selectedSize = sizeSelect.options[sizeSelect.selectedIndex].value;
+
+        map.addSource(layerName + '-source', {
             'type': 'geojson',
             'data': geoJSONDataCentres
         });
 
         map.addLayer({
-            'id': valueAttr + '-layer',
+            'id': layerName + '-layer',
             'type': 'circle',
-            'source': valueAttr + '-source',
-            'filter': ["==", filterType, JSON.parse(filterValue)],
+            'source': layerName + '-source',
             'paint': {
                 "circle-color": [
                     "rgb",
-                    JSON.parse(filterValue)? config.colors.photographed[0] : config.colors.notPhotographed[0],
-                    JSON.parse(filterValue)? config.colors.photographed[1] : config.colors.notPhotographed[1],
-                    JSON.parse(filterValue)? config.colors.photographed[2] : config.colors.notPhotographed[2],
+                    config.colors[selectedColor][0], config.colors[selectedColor][1], config.colors[selectedColor][2]
                 ],
-                'circle-radius': config.markerRadius[config.mode],
+                'circle-radius': JSON.parse(selectedSize),
                 'circle-opacity': 1
 
             }
         });
+
+        map.setFilter(`${layerName}-layer`, filterArray);
     };
 
     if(config.mode === 'production') {
@@ -666,6 +472,24 @@
     } else {
         document.getElementsByClassName('production')[0].style.display = 'none';
     }
+
+    const downloadCurrentView = function(num) {
+        map.getCanvas().toBlob(function(blob) {
+            saveAs(blob, 'kabk_rg_dc atlas_map-' + num + '.png');
+        });
+    };
+
+    const getCurrentCenterLatLong = function() {
+        console.log(map.getCenter());
+    };
+
+    const setNewCenter = function(num) {
+        map.setCenter([config.centers[num].lng, config.centers[num].lat]);
+
+        const downloadEl = document.querySelector(".download");
+        downloadEl.setAttribute('onclick', `downloadCurrentView(${num})`);
+    };
+
 </script>
 </body>
 </html>

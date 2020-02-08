@@ -1,9 +1,248 @@
-#dataCenterAtlas {
-    position: absolute;
+body {
+    margin:0;
+    padding:0;
+    background-color: grey;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
     height: 100vh;
     width: 100vw;
+}
+
+.mapboxgl-popup-content {
+    padding: 1em;
+    font-size: 12px;
+    line-height: 1.25em;
+    color: rgba(51,51,51,1);
+    border-radius: 6px;
+    background-color: rgba(255, 250, 215, 1);
+    border: 1px solid rgba(255,205,189,0.5);
+    box-shadow: 0 0 12px 6px rgba(255,255,255,0.5);
+}
+
+.mapboxgl-popup-content h4, .mapboxgl-popup-content p, .mapboxgl-popup-content span {
+    margin: 0;
+}
+
+.mapboxgl-popup-content h4, .mapboxgl-popup-content h4 > span {
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.mapboxgl-popup-content h4 > span:not(:first-of-type)::before {
+    content: ', '
+}
+
+.mapboxgl-popup-content div > span {
+    margin-right: 0.25em;
+    padding: 0.25em;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 4px;
+}
+
+.mapboxgl-popup-content h4 + p {
+    margin: 0.5em 0;
+    text-transform: capitalize;
+}
+
+.mapboxgl-popup-content > div > div:nth-of-type(1) {
+    margin: 0.5em 0 1em 0;
+}
+
+.mapboxgl-popup-content > div > div:nth-of-type(2) {
+    margin: 0.5em 0;
+}
+
+.mapboxgl-popup-content > div > div:nth-of-type(2) > p {
+    text-transform: capitalize;
+}
+
+.mapboxgl-popup-content > div > div:nth-of-type(3) {
+    margin: 0.5em 0;
+}
+
+.mapboxgl-popup-tip {
+    display: none;
+}
+
+.mapboxgl-popup-close-button {
+    display: none;
+}
+
+.mapboxgl-control-container {
+    display: none;
+}
+
+.getcenter {
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    z-index: 9999;
+}
+
+.getcenter:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#ui {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 40px;
+    z-index: 9999;
+}
+
+#ui > .production {
+    position: fixed;
+    display: block;
+
+    bottom: 0;
+
+    width: 100vw;
+
+    padding: 1em;
+
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#ui > .dev > .map-layer {
+    position: fixed;
+    display: block;
+
+    top: 1.25em;
+    left: 1.25em;
+
+    width: auto;
+    height: auto;
+
+    padding: 0.75em;
+
+    border-radius: 6px;
+    background: white;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+#ui > .dev > .map-layer > * {
+    display: inline-block;
+
+    /*margin-right: 0.5em;*/
+    /*line-height: 1.25em;*/
+}
+
+input + span {
+    font-size: 11px;
+    padding-left: 0.33em;
+}
+
+input {
+    margin: 0;
+}
+
+.download {
+    display: block;
+}
+button {
+    /*margin: 0.5rem;*/
+}
+button:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#data {
+    position: fixed;
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+
+    top: 0;
+    right: -98vw;
+
+    font-size: 16px;
+    line-height: 1.25em;
+    font-weight: normal;
+
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    transition: all 0.75s linear;
+
+    overflow-y: auto;
+}
+
+#data:hover {
+    right: -5vw;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#data > .data_handle {
+    width: 2vw;
+    height: 100vh;
+
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100vh;
+    text-align: center;
+    position: fixed;
+}
+
+#data > .data_content {
+    margin-left: 2vw;
+    padding-top: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#data > .data_content > .data_content_header {
+    display: flex;
+
+    width: 94vw;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1em;
+
+    top: 0;
+}
+
+#data > .data_content span {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#data > .data_content > .data_content_data > .data_content_data_datacenter {
+    display: flex;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+#loadingState {
+    position: fixed;
+    display: block;
+
+    width: 100vw;
+    height: 100vh;
 
     top: 0;
     left: 0;
+
+    font-size: 18px;
+    line-height: 100vh;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: blue;
+    background-color: white;
+    opacity: 1;
+
+    transition: opacity 0.5s linear;
+
+    z-index: 999999;
 }
