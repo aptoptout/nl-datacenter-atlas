@@ -26,24 +26,66 @@
     </div>
 
     <div class="dev">
-        <div class="map-layer" data-lname="layer-1">
-            <div id="filter-options">
-                <div><input type="checkbox" checked value="all-true"><span>All</span></div>
-                <div><input type="checkbox" value="photo_taken-true"><span>Photographed</span></div>
-                <div><input type="checkbox" value="photo_taken-false"><span>Not photographed</span></div>
-                <div><input type="checkbox" value="amsix-true"><span>AMS-IX Point of Presence</span></div>
-                <div><input type="checkbox" value="amsix-false"><span>No AMS-IX Point of Presence</span></div>
-                <div><input type="checkbox" value="dda_participant-true"><span>DDA Participant</span></div>
-                <div><input type="checkbox" value="dda_participant-false"><span>Not DDA Participant</span></div>
-                <div><input type="checkbox" value="dc_type-colocation"><span>Colocation</span></div>
-                <div><input type="checkbox" value="dc_type-hyperscale"><span>Hyperscale</span></div>
-                <div><input type="checkbox" value="in_google_maps-true"><span>Appears in Google Maps</span></div>
-                <div><input type="checkbox" value="in_google_maps-false"><span>Not in Google Maps</span></div>
-                <div><input type="checkbox" value="time_stamp-2020"><span>Verified in 2020</span></div>
-                <div><input type="checkbox" value="time_stamp-2018"><span>Verified in 2018</span></div>
+        <div class="map-layer-landingpoints" data-lname="landingpoints">
+            <input type="checkbox" onclick="handleLandingPointsCheckBox(this)" checked value="landingpoints-true">
+        </div>
+
+        <div class="map-layer-template" data-lname="layer-0">
+            <div class="filter-options">
+                <div><input type="checkbox" onclick="checkBox(this)" checked value="all-true"><span>All</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="photo_taken-true"><span>Photographed</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="photo_taken-false"><span>Not photographed</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="amsix-true"><span>AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="amsix-false"><span>No AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dda_participant-true"><span>DDA Participant</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dda_participant-false"><span>Not DDA Participant</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dc_type-colocation"><span>Colocation</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dc_type-hyperscale"><span>Hyperscale</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="in_google_maps-true"><span>Appears in Google Maps</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="in_google_maps-false"><span>Not in Google Maps</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="time_stamp-2020"><span>Verified in 2020</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="time_stamp-2018"><span>Verified in 2018</span></div>
             </div>
 
-            <select id="color-option">
+            <select class="color-option">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option selected value="black">Black</option>
+                <option value="grey">Grey</option>
+                <option value="yellow">Yellow</option>
+            </select>
+
+            <select class="size-option">
+                <option selected value="4">4px</option>
+                <option value="8">8px</option>
+                <option value="16">16px</option>
+            </select>
+
+            <button onclick="updateExistingLayer(this)">Update layer</button>
+            <button onclick="removeExistingLayer(this)">Remove layer</button>
+
+            <div class="minmax" onclick="showHideLayer(this)">-</div>
+        </div>
+
+        <div class="map-layer" data-lname="layer-1">
+            <div class="filter-options">
+                <div><input type="checkbox" onclick="checkBox(this)" value="all-true"><span>All</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="photo_taken-true"><span>Photographed</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" checked value="photo_taken-false"><span>Not photographed</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="amsix-true"><span>AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="amsix-false"><span>No AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dda_participant-true"><span>DDA Participant</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dda_participant-false"><span>Not DDA Participant</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dc_type-colocation"><span>Colocation</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dc_type-hyperscale"><span>Hyperscale</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="in_google_maps-true"><span>Appears in Google Maps</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="in_google_maps-false"><span>Not in Google Maps</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="time_stamp-2020"><span>Verified in 2020</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="time_stamp-2018"><span>Verified in 2018</span></div>
+            </div>
+
+            <select class="color-option">
                 <option selected value="red">Red</option>
                 <option value="green">Green</option>
                 <option value="blue">Blue</option>
@@ -52,14 +94,55 @@
                 <option value="yellow">Yellow</option>
             </select>
 
-            <select id="size-option">
+            <select class="size-option">
                 <option selected value="4">4px</option>
                 <option value="8">8px</option>
                 <option value="16">16px</option>
             </select>
 
             <button onclick="updateExistingLayer(this)">Update layer</button>
+            <div class="minmax" onclick="showHideLayer(this)">-</div>
         </div>
+
+        <div class="map-layer" data-lname="layer-2">
+            <div class="filter-options">
+                <div><input type="checkbox" onclick="checkBox(this)" value="all-true"><span>All</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" checked value="photo_taken-true"><span>Photographed</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="photo_taken-false"><span>Not photographed</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="amsix-true"><span>AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="amsix-false"><span>No AMS-IX Point of Presence</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dda_participant-true"><span>DDA Participant</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dda_participant-false"><span>Not DDA Participant</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dc_type-colocation"><span>Colocation</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="dc_type-hyperscale"><span>Hyperscale</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="in_google_maps-true"><span>Appears in Google Maps</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="in_google_maps-false"><span>Not in Google Maps</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="time_stamp-2020"><span>Verified in 2020</span></div>
+                <div><input type="checkbox" onclick="checkBox(this)" value="time_stamp-2018"><span>Verified in 2018</span></div>
+            </div>
+
+            <select class="color-option">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option selected value="blue">Blue</option>
+                <option value="black">Black</option>
+                <option value="grey">Grey</option>
+                <option value="yellow">Yellow</option>
+            </select>
+
+            <select class="size-option">
+                <option selected value="4">4px</option>
+                <option value="8">8px</option>
+                <option value="16">16px</option>
+            </select>
+
+            <button onclick="updateExistingLayer(this)">Update layer</button>
+            <button onclick="removeExistingLayer(this)">Remove layer</button>
+
+            <div class="minmax" onclick="showHideLayer(this)">-</div>
+        </div>
+
+        <button onclick="addNewLayer(this)">Add layer</button>
     </div>
 </div>
 
@@ -180,6 +263,8 @@
         }]
     };
 
+    let layerNum = 0;
+
     const geoJSONDataCentres = {
         "type": "FeatureCollection",
         "features": []
@@ -219,6 +304,7 @@
         }));
 
         showData();
+        addLandingPointsLayer();
         addSheetToDiv();
 
         setTimeout(function(){
@@ -246,13 +332,14 @@
         container: config.container,
         style: config.showPOI ? config.styleNone : config.styleLines[config.mode],
         zoom: config.zoomlevel[config.mode],
-        center: [5.291266, 52.132633],
+                // center: [5.291266, 52.132633],
         preserveDrawingBuffer: true
     });
 
-    map.on('load', function() {
+    map.fitBounds([[7.102318, 53.621023], [3.375099, 50.698578]]);
 
-        if(config.showPOI || config.mode === 'dev') {
+    map.on('load', function() {
+        if(config.showPOI && config.mode === 'production') {
             map.loadImage('data/cross.png', function(error, image) {
                 if (error) throw error;
                 map.addImage('cross', image);
@@ -272,19 +359,6 @@
                             'icon-size': 0.35,
                         }
                     });
-                } else {
-                    map.addLayer({
-                        'id': 'landingpoints',
-                        'type': 'symbol',
-                        'source': {
-                            'type': 'geojson',
-                            'data': geojson_landingpoints
-                        },
-                        'layout': {
-                            "icon-image": 'cross',
-                            'icon-size': 0.05,
-                        }
-                    });
                 }
             }
         }
@@ -294,73 +368,116 @@
         let checkedFilters = document.getElementsByClassName('map-layer');
 
         [...checkedFilters].forEach(function(filter, index) {
-                addLayer(filter);
+            layerNum += 1;
+            addLayer(filter);
 
-                // marker on click
-                map.on("click", filter.getAttribute("value") + '-layer', function(e) {
-                    // data centre name
-                    const dcName = document.createElement("h4");
-                    JSON.parse(e.features[0].properties.name).forEach(function(name, index) {
-                        if(name.length > 0 ){
-                            const thisName = document.createElement("span");
-                            thisName.innerHTML = name;
-                            dcName.append(thisName);
-                        }
-                    });
-
-                    const dcType = document.createElement("p");
-                    dcType.innerHTML = e.features[0].properties.dc_type;
-
-                    // owners
-                    const owners = document.createElement("div");
-                    JSON.parse(e.features[0].properties.owner).forEach(function(owner, index) {
-                        if(owner.length > 0 ){
-                            const ownersName = document.createElement("span");
-                            ownersName.innerHTML = owner;
-                            owners.append(ownersName);
-                        }
-                    });
-
-                    // address
-                    const address = document.createElement("div");
-                    const addressData = JSON.parse(e.features[0].properties.address);
-                    const street = document.createElement("p");
-                    street.innerHTML = addressData.street;
-                    const zipcode = document.createElement("p");
-                    zipcode.innerHTML = addressData.zipcode;
-                    const city = document.createElement("p");
-                    city.innerHTML = addressData.city;
-                    address.append(street, zipcode, city);
-
-
-                    // additional info
-                    const extrainfo = document.createElement("div");
-                    const phototaken = document.createElement("p");
-                    phototaken.innerHTML = "Photo taken: " + e.features[0].properties.photo_taken;
-                    const ddapartner = document.createElement("p");
-                    ddapartner.innerHTML = "DDA Participant: " + e.features[0].properties.dda_participant;
-                    const ingooglemaps = document.createElement("p");
-                    ingooglemaps.innerHTML = "Google Maps: " + e.features[0].properties.in_google_maps;
-                    extrainfo.append(phototaken, ddapartner, ingooglemaps);
-
-                    // source and time
-                    const sourcetimestamp = document.createElement("p");
-                    const linksource = document.createElement("a");
-                    linksource.setAttribute('href', 'www.' + e.features[0].properties.source);
-                    linksource.innerHTML = e.features[0].properties.source;
-
-                    sourcetimestamp.innerHTML = linksource.outerHTML + ", " + e.features[0].properties.time_stamp;
-
-                    // wrapping up
-                    const inside = document.createElement("div");
-                    inside.append(dcName, dcType, owners, address, extrainfo, sourcetimestamp);
-
-                    new mapboxgl.Popup()
-                        .setLngLat(e.lngLat)
-                        .setHTML(inside.outerHTML)
-                        .addTo(map);
+            // marker on click
+            map.on("click", filter.getAttribute("data-lname") + '-layer', function(e) {
+                // data centre name
+                const dcName = document.createElement("h4");
+                JSON.parse(e.features[0].properties.name).forEach(function(name, index) {
+                    if(name.length > 0 ){
+                        const thisName = document.createElement("span");
+                        thisName.innerHTML = name;
+                        dcName.append(thisName);
+                    }
                 });
+
+                const dcType = document.createElement("p");
+                dcType.innerHTML = e.features[0].properties.dc_type;
+
+                // owners
+                const owners = document.createElement("div");
+                JSON.parse(e.features[0].properties.owner).forEach(function(owner, index) {
+                    if(owner.length > 0 ){
+                        const ownersName = document.createElement("span");
+                        ownersName.innerHTML = owner;
+                        owners.append(ownersName);
+                    }
+                });
+
+                // address
+                const address = document.createElement("div");
+                const addressData = JSON.parse(e.features[0].properties.address);
+                const street = document.createElement("p");
+                street.innerHTML = addressData.street;
+                const zipcode = document.createElement("p");
+                zipcode.innerHTML = addressData.zipcode;
+                const city = document.createElement("p");
+                city.innerHTML = addressData.city;
+                address.append(street, zipcode, city);
+
+
+                // additional info
+                const extrainfo = document.createElement("div");
+                const phototaken = document.createElement("p");
+                phototaken.innerHTML = "Photo taken: " + e.features[0].properties.photo_taken;
+                const ddapartner = document.createElement("p");
+                ddapartner.innerHTML = "DDA Participant: " + e.features[0].properties.dda_participant;
+                const ingooglemaps = document.createElement("p");
+                ingooglemaps.innerHTML = "Google Maps: " + e.features[0].properties.in_google_maps;
+                extrainfo.append(phototaken, ddapartner, ingooglemaps);
+
+                // source and time
+                const sourcetimestamp = document.createElement("p");
+                const linksource = document.createElement("a");
+                linksource.setAttribute('href', 'www.' + e.features[0].properties.source);
+                linksource.innerHTML = e.features[0].properties.source;
+
+                sourcetimestamp.innerHTML = linksource.outerHTML + ", " + e.features[0].properties.time_stamp;
+
+                // wrapping up
+                const inside = document.createElement("div");
+                inside.append(dcName, dcType, owners, address, extrainfo, sourcetimestamp);
+
+                new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(inside.outerHTML)
+                    .addTo(map);
+            });
         });
+    };
+
+    const addLandingPointsLayer = function() {
+        map.loadImage('data/cross.png', function(error, image) {
+            if(error){
+                throw error;
+            }
+            map.addImage('cross', image);
+        });
+
+        map.addLayer({
+            'id': 'landingpoints-layer',
+            'type': 'symbol',
+            'source': {
+                'type': 'geojson',
+                'data': geojson_landingpoints
+            },
+            'layout': {
+                "icon-image": 'cross',
+                'icon-size': 0,
+            }
+        });
+
+        toggleLandingPoints();
+    };
+
+    const handleLandingPointsCheckBox = function(clickedElement) {
+        if(clickedElement.hasAttribute('checked')) {
+            clickedElement.removeAttribute('checked');
+            toggleLandingPoints();
+        } else {
+            clickedElement.setAttribute("checked", "");
+            toggleLandingPoints();
+        }
+    };
+
+    const toggleLandingPoints = function() {
+        if(document.querySelector('.map-layer-landingpoints input').hasAttribute('checked')) {
+            map.setLayoutProperty('landingpoints-layer', 'icon-size', 0.05);
+        } else {
+            map.setLayoutProperty('landingpoints-layer', 'icon-size', 0);
+        }
     };
 
     const addSheetToDiv = function() {
@@ -392,22 +509,22 @@
         });
     };
 
-    const addRemoveFilterLayer = function(el) {
-        if(!el.hasAttribute("checked")) {
-            el.setAttribute("checked", true);
-            addLayer(el);
+    const checkBox = function(element) {
+        if(element.hasAttribute("checked")) {
+            element.removeAttribute("checked");
         } else {
-            el.removeAttribute("checked");
-            map.removeLayer(el.getAttribute("value") + '-layer');
-            map.removeSource(el.getAttribute("value") + '-source');
+            element.setAttribute("checked", "");
         }
     };
 
-    const addLayer = function(el) {
-        const className = el.classList[0];
-        const layerName = el.getAttribute("data-lname");
+    const showHideLayer = function(_button) {
+        const parentElement = _button.parentNode;
+        parentElement.classList.toggle('expandLayer');
+    };
 
-        const filterNodeList = document.querySelectorAll(`.${className}[data-lname='${layerName}'] input`);
+    const getAllFilters = function(_class, _layer) {
+        const filterNodeList = document.querySelectorAll(`.${_class}[data-lname='${_layer}'] input`);
+        const filterArrayList = Array.from(filterNodeList);
         let filterArray = ["all"];
 
         [...filterNodeList].forEach(function(filter, index) {
@@ -419,6 +536,17 @@
                 switch(filterType){
                     case 'all':
                         break;
+                    case 'dc_type':
+                        filterArray.push(["==", filterType, filterValue]);
+                        break;
+                    case 'time_stamp':
+                        if(filterValue === '2020') {
+                            filterArray.push(["==", filterType, `01.${filterValue}`]);
+                            break;
+                        } else {
+                            filterArray.push(["==", filterType, `11.${filterValue}`]);
+                            break;
+                        }
                     default:
                         filterArray.push(["==", filterType, JSON.parse(filterValue)]);
                         break;
@@ -426,13 +554,26 @@
             }
         });
 
-        // color selection
-        const colorSelect = document.querySelector(`.${className}[data-lname="${layerName}"] #color-option`);
-        const selectedColor = colorSelect.options[colorSelect.selectedIndex].value;
+        return filterArray;
+    };
 
-        // size selection
-        const sizeSelect = document.querySelector(`.${className}[data-lname="${layerName}"] #size-option`);
-        const selectedSize = sizeSelect.options[sizeSelect.selectedIndex].value;
+    const getColor = function(_class, _layer) {
+        const colorSelect = document.querySelector(`.${_class}[data-lname="${_layer}"] .color-option`);
+        return colorSelect.options[colorSelect.selectedIndex].value;
+    };
+
+    const getSize = function(_class, _layer) {
+        const sizeSelect = document.querySelector(`.${_class}[data-lname="${_layer}"] .size-option`);
+        return sizeSelect.options[sizeSelect.selectedIndex].value;
+    };
+
+    const addLayer = function(el) {
+        const className = el.classList[0];
+        const layerName = el.getAttribute("data-lname");
+
+        const selectedFilters = getAllFilters(className, layerName);
+        const selectedColor = getColor(className, layerName);
+        const selectedSize = getSize(className, layerName);
 
         map.addSource(layerName + '-source', {
             'type': 'geojson',
@@ -454,7 +595,50 @@
             }
         });
 
-        map.setFilter(`${layerName}-layer`, filterArray);
+        map.setFilter(`${layerName}-layer`, selectedFilters);
+    };
+
+    const addNewLayer = function(el) {
+        layerNum += 1;
+
+        const layerNodeWrapper = el.parentNode;
+        const clonedHTMLLayer = document.querySelectorAll('.map-layer-template')[0].cloneNode('true');
+
+        clonedHTMLLayer.classList.add('map-layer');
+        clonedHTMLLayer.classList.remove('map-layer-template');
+        clonedHTMLLayer.setAttribute('data-lname', 'layer-' + layerNum);
+
+        layerNodeWrapper.insertBefore(clonedHTMLLayer, el);
+        addLayer(clonedHTMLLayer);
+    };
+
+    const updateExistingLayer = function(layerElement) {
+        const parentLayer = layerElement.parentNode;
+        const className = parentLayer.classList[0];
+        const layerName = parentLayer.getAttribute("data-lname");
+
+        const selectedFilters = getAllFilters(className, layerName);
+        const selectedColor = getColor(className, layerName);
+        const selectedSize = getSize(className, layerName);
+
+        map.setPaintProperty(`${layerName}-layer`, 'circle-radius', JSON.parse(selectedSize));
+        map.setPaintProperty(`${layerName}-layer`, 'circle-color', ["rgb", config.colors[selectedColor][0], config.colors[selectedColor][1], config.colors[selectedColor][2]]);
+        map.setFilter(`${layerName}-layer`, selectedFilters);
+    };
+
+    const removeExistingLayer = function(layerElement) {
+        const parentLayer = layerElement.parentNode;
+        const layerName = parentLayer.getAttribute("data-lname");
+
+        map.removeLayer(`${layerName}-layer`);
+        map.removeSource(`${layerName}-source`);
+
+        parentLayer.classList.add('remove');
+        parentLayer.style.maxHeight = '0px';
+
+        setTimeout(function() {
+            parentLayer.remove();
+        }, 250);
     };
 
     if(config.mode === 'production') {
